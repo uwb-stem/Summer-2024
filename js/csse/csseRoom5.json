@@ -1,0 +1,91 @@
+{
+    "csse": [
+      
+        {
+           "time": "1:00 PM - 1:15 PM",
+           "projectId": "csse-5-100",
+           "title": "Enhancing ML Model Governance Through Advanced Search Capabilities at American Express",
+           "studentName": "Nour El-Deen Ali",
+           "studentMajor": "CSSE",
+           "projectType": "Internship or Job opportunity",
+           "facultyAdvisor": "Prof. Arkady Retik",
+           "posterLink": "./posters/csse/alinoureldeen_4113262_122695877_Nour_css497_poster.jpg",
+           "abstract": "During my internship at American Express, I was part of the AIDA ML Engineering team, specifically within the governance team. Our primary challenge was enabling the first and second lines of defense to efficiently search for specific phrases across thousands of machine-learning technical documents and metadata to identify which models and versions contained those terms to determine if the model is ready for deployment.\n\n To address this, I utilized Elasticsearch to implement a similarity check and indexing solution. The process involved first indexing all the machine learning technical documents and their associated metadata. Following this, I developed a search feature allowing users to input a phrase and retrieve all relevant metadata for documents containing that phrase. This feature was enhanced with the capability to search within specified fields, offering a dynamic and flexible search experience.\n\n Additionally, I implemented a \"search-as-you-type\" autocomplete feature. This feature autocompletes only with words present within the technical documents, ensuring relevance. For instance, if \"apple\" does not exist in the documents, typing \"A\" will not suggest \"apple\" but might suggest terms like \"AXGBoost algorithm\" if present in the indexed content.\n\n Throughout the project, I faced and overcame several technical challenges, including transitioning from local to remote development setups, configuring secure connections to remote PostgreSQL databases, S3 cloud storage, and enterprise Elasticsearch. I explored various data fetching and indexing solutions, ultimately choosing a combined approach for enhanced efficiency. This solution consolidated data fetching and indexing processes, significantly reducing the number of server requests and improving overall performance.\n\n I also conducted extensive testing, including edge case scenarios, to ensure the robustness and reliability of the program. This testing phase included verifying program functionality, optimizing performance, and documenting all processes and methodologies comprehensively.\n\n The results of my work enabled the governance team to perform precise and efficient searches across extensive technical documentation, thereby improving their ability to monitor and govern machine learning models effectively. This project not only honed my technical skills in Elasticsearch and Java but also enhanced my problem-solving and project management abilities, preparing me for future challenges in the software engineering field. \n\n Additionally, I used Spring Boot and React to create a front end for the project, ensuring a seamless and intuitive user experience. This combination allowed for efficient development and deployment, contributing significantly to the overall success of the project. "   
+
+	},        
+    {
+        "time": "1:15 PM - 1:30 PM",
+        "projectId": "csse-5-115",
+        "title": "Designing and IMplementing an ETL Pipeline",
+        "studentName": "Bisrat Atnafe",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Prof. Arkady Retik",
+        "posterLink": "./posters/csse/atnafebisrat_4399345_122709203_CSSE Capstone Poster.png",
+        "abstract": "This project is part of an initiative aimed at developing a new service focused on delivering personalized financial insights to customers. The primary objective was to design and implement a robust ETL (Extract, Transform, Load) pipeline capable of processing large volumes of data securely and efficiently. Security was a top priority throughout the project, with significant effort dedicated to ensuring that data remained protected at every stage of the ETL process. This pipeline is integral to the new service, providing a reliable infrastructure that ensures data is accurately and securely extracted, transformed, and readily available for analysis.\n\n AWS was chosen as the platform for the ETL pipeline because the service was already built on AWS, allowing for seamless integration with existing infrastructure. The selected AWS services: S3, Redshift, Lambda, Glue, QuickSight, and CloudWatch were specifically chosen for their strong security and scalability features. S3 handles raw data storage with robust encryption, while Redshift serves as the data warehouse for transformed data, offering efficient query capabilities. AWS Lambda and Glue facilitate the extraction and transformation processes, ensuring that data is processed securely and effectively. AWS QuickSight is integrated for business intelligence, enabling the service to generate valuable insights from the transformed data. To ensure continuous operation and quick identification of issues, AWS CloudWatch has been integrated to monitor the entire system.\n\n The result of this project is a secure and scalable ETL pipeline. The pipeline currently serves transformed data for business intelligence, enabling the new service to generate valuable insights from the data. Emphasis was placed on building a modular and loosely coupled architecture, making the pipeline easily extendable for other use cases, such as data analytics, machine learning and advanced data processing tasks. This flexibility ensures that the pipeline can adapt to future needs, supporting the growth and scalability of the service."   
+
+     },
+     {
+        "time": "1:30 PM - 1:45 PM",
+        "projectId": "csse-5-130",
+        "title": "Data Engineer @ Boeing",
+        "studentName": "Ibrahim Deria",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Prof. Arkady Retik",
+        "posterLink": "./posters/csse/deriaibrahim_4259607_122744410_Capstone Poster.png",
+        "abstract": "During my internship at Boeing as part of the Enterprise Certification Data Team, under the Regulatory Airworthiness and Administration department, I was responsible for managing and automating critical data processes. The internship consisted of two major projects aimed at enhancing the efficiency and accuracy of regulatory communications between Boeing and the FAA.\n\n The first project addressed significant inefficiencies in the existing system used to manage correspondence and safety documentation. The previous system was not only outdated but also hindered timely data extraction and validation, leading to potential compliance risks. My role involved developing an automated process to extract data from internal files, parse and compare it with the FAA's database, and ensure that all records were accurate, up to date, and compliant with regulatory requirements. This automation not only improved the system's performance by 99%, but it also significantly reduced the time required for manual data processing and minimized the risk of human error.\n\n The second project was focused on automating the department-wide communication process, which was critical for maintaining consistent and timely updates across the team. Every two weeks, new communications, including updates on workflows, processes, and other important announcements, were disseminated. The manual process previously in place was inefficient and possibly ignored, which could lead to critical information being overlooked. To address this, I developed an automated system that managed the entire communication process—from releasing the communication to the appropriate database, to sending confirmation emails to the admin. This system will be responsible for handling around 50 communications yearly, ensuring they were sent out promptly and with quality assurance measures in place.\n\n The significance of these projects lies in their contribution to reducing manual labor, enhancing data accuracy, and improving overall communication efficiency within the department. By automating these key processes, my work has helped ensure that Boeing’s regulatory communications are more reliable, timely, and compliant with FAA standards, ultimately contributing to the overall efficiency and safety of the organization’s operations."   
+     }
+
+     ,
+     {
+      "time": "1:45 PM - 2:00 PM",
+      "projectId": "csse-5-145",
+        "title": "Innovating Blockchain Platform Usability: Enhancing UNISWAP's interface and SWAP Mechanics",
+        "studentName": "Michael Law",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Prof. Arkady Retik",
+        "posterLink": "./posters/csse/lawmichael_3948824_122746023_Capstone Poster Final Edition.png",
+        "abstract": "The newly designed UNISWAP platform now supports an enhanced transaction processing capability, aiming for a latency of under one second and handling up to 10,000 transactions per second during peak loads. This significant improvement in performance was achieved without sacrificing the ease of use for the platform's diverse user base.\n\n The enhancements made to the UNISWAP interface represent a pivotal advancement in making DeFi platforms more accessible and efficient. By reducing the barriers to entry for users unfamiliar with blockchain technologies and providing powerful tools for experienced traders, this project contributes to the broader adoption and scalability of DeFi solutions. The continuous integration of user feedback ensures that the platform evolves in line with user needs and industry advancements, setting a precedent for future developments in the field.\n\n This project not only showcases the potential of thoughtful UI/UX design in blockchain applications but also highlights the importance of user-centered development in the rapidly growing DeFi sector.\n\n"   
+     }
+
+     ,
+     {
+        "time": "2:00 PM - 2:15 PM",
+        "projectId": "csse-5-200",
+        "title": "Safety Rating System with Microsoft Azure Services",
+        "studentName": "Lily Aguirre",
+        "studentMajor": "CSSE",
+        "projectType": "Individual project - Student Defined",
+        "facultyAdvisor": "Prof. Arkady Retik",
+        "posterLink": "./posters/csse/aguirrelily_LATE_4146672_122746486_SafeZone.jpg",
+        "abstract": "SafeZone Ratings is an innovative web-based service designed to provide personalized safety ratings for various locations, leveraging user feedback categorized by gender identity. This project aims to address the growing need for location-specific safety information, particularly for vulnerable communities, by utilizing modern technology and crowd-sourced data. By incorporating real-time user feedback and advanced data analytics, SafeZone Ratings delivers dynamic and accurate safety assessments that adapt to the changing environment.\n\n The core functionality of SafeZone Ratings revolves around its user-centric approach. Users contribute to the platform by submitting detailed reviews and safety ratings for different locations, focusing on factors such as lighting, public presence, security measures, and overall sense of safety. This data is then processed and categorized based on gender identity, providing tailored safety insights that reflect the unique experiences of diverse user groups.\n\n The project utilizes Microsoft Azure for robust cloud computing capabilities and Microsoft Maps for precise geolocation services, ensuring reliable performance and scalability. By integrating these technologies, SafeZone Ratings offers an intuitive interface where users can easily search for and view safety ratings of locations in real-time.\n\n Moreover, SafeZone Ratings fosters a community-driven environment that encourages active participation and continuous feedback, enhancing the accuracy and relevance of the safety ratings. The platform's comprehensive data visualization tools enable users to identify patterns and trends, making informed decisions about their safety.\n\n SafeZone Ratings not only empowers individuals to make safer choices but also provides valuable insights for urban planners, local authorities, and businesses to improve safety measures in their areas. Through its innovative approach and commitment to user safety, SafeZone Ratings aspires to create safer, more inclusive communities worldwide."   
+     }
+
+     ,
+     {
+        "time": "2:15 PM - 2:30 PM",
+        "projectId": "csse-5-215",
+        "title": "LitWiki - The Pokémon Pokédex",
+        "studentName": "Daniel Tsang",
+        "studentMajor": "CSSE",
+        "projectType": "Individual project - Student Defined",
+        "facultyAdvisor": "Prof. Arkady Retik",
+        "posterLink": "./posters/csse/tsangdaniel_4104416_122689812_CSS_497_Pokédex_Poster.png",
+        "abstract": "This capstone project focuses on developing a mobile application for Android designed for Pokémon enthusiasts, providing a comprehensive platform for users to build, research, and manage Pokémon. The motivation behind this project stems from the need for tools that enhance player engagement by allowing personalized team-building experiences without blocking users behind a paywall or overwhelmed with a mountain of ads. The primary problem addressed is an ad-free, no-cost, user-friendly application that facilitates detailed team customization, including move selection and type effectiveness analysis. The project employs a Flutter-based application to solve this issue, leveraging Dart for seamless cross-platform development and integrating an SQLite database for robust data management.\n\n Key features of the application include a Team Builder, where users can create, rename, and delete teams of up to six Pokémon, assigning moves from their available movesets. Implementing SharedPreferences ensures that team configurations persist across app sessions, providing a consistent and reliable user experience. Additionally, the app includes detailed Pokémon information pages, showcasing type effectiveness, evolutions, and move details, allowing users to make informed decisions about their team compositions. The integration of real-time search functionality and data filtering enables efficient navigation and selection processes. The app's ability to display images from a local assets directory further enhances the visual experience, making it more engaging for users.\n\n The conclusion of this project demonstrates the potential to significantly improve the Pokémon gaming experience by offering users an interactive and customizable platform to manage their teams effectively. The project shows the importance of integrating modern software development techniques with a clear understanding of user needs, ultimately delivering a tool that can be expanded with additional features such as online battles and community sharing. "   
+     }
+     ,
+     {
+        "time": "2:30 PM - 3:15 PM",
+        "projectId": "csse-5-230",
+        "title": "Club Hub",
+        "studentName": "Don Hoang\n\nLeo Matunan\n\nKrisna Oeurn",
+        "studentMajor": "CSSE\n\nCSSE\n\nCSSE",
+        "projectType": "Group project - Student Defined",
+        "facultyAdvisor": "Prof. Arkady Retik",
+        "posterLink": "./posters/csse/hoangdon_4352020_122743468_CapstonePosterFinal_Summer2024.JPG",
+        "abstract": "Our Capstone project named “Club Hub” was focused on creating an improved version of the current student platform at the University of Washington Bothell. Our main goal was to improve user experience, performance, and functionality to get students more engaged with the Clubs and Organizations offered on campus.\n\n Over the course of the summer quarter, we collected requirements, defined a feature set, and after conducting thorough prototyping—where we designed, tested, and refined the user interface and functionality—we created an improved version of the club platform. We then developed a prototype of the student platform using modern technologies which include React and Supabase. React was used to create a dynamic and easy-to-use application and Supabase was used for data management and authentication These technologies allowed us to build an aesthetic platform with features designed to improve accessibility to clubs and organizations while fostering campus engagement. The main features we worked on were event posting for clubs/organizations and a financial system used to track club funding. These features in conjunction with the others were designed and chosen to help improve and foster collaboration on campus.\n\n Our final product is a full-stack application called “Club Hub” which improves upon the current student experience. Preliminary user testing and sponsor feedback indicate that students using this platform will find it easier to discover and participate in new club activities. Our platform aims to foster a warm, welcoming atmosphere for students, enhance engagement, and promote a positive campus life."   
+     }
+    ]
+}

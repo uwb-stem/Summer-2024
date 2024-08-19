@@ -1,0 +1,107 @@
+{
+    "ac": [
+        {
+            "pannel": "pannel",
+            "time":"0:00-0:00",
+            "presentations": [
+                {
+                    "title": "title",
+                    "studentName": "student name",
+                    "facultyAdvisor": "faculty advisor",
+                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                },
+                {
+                    "title": "title",
+                    "studentName": "student name",
+                    "facultyAdvisor": "faculty advisor",
+                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                },
+                {
+                    "title": "title",
+                    "studentName": "student name",
+                    "facultyAdvisor": "faculty advisor",
+                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                },
+                {
+                    "title": "title",
+                    "studentName": "student name",
+                    "facultyAdvisor": "faculty advisor",
+                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                },
+                {
+                    "title": "title",
+                    "studentName": "student name",
+                    "facultyAdvisor": "faculty advisor",
+                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                }
+            ]
+        },
+        {
+            "pannel": "pannel",
+            "time":"0:00-0:00",
+            "presentations": [
+                {
+                    "title": "title",
+                    "studentName": "student name",
+                    "facultyAdvisor": "faculty advisor",
+                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                },
+                {
+                    "title": "title",
+                    "studentName": "student name",
+                    "facultyAdvisor": "faculty advisor",
+                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                },
+                {
+                    "title": "title",
+                    "studentName": "student name",
+                    "facultyAdvisor": "faculty advisor",
+                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                }
+            ]
+        }
+        ,
+        {
+            "pannel": "pannel",
+            "time":"0:00-0:00",
+            "presentations": [
+                {
+                    "title": "title",
+                    "studentName": "student name",
+                    "facultyAdvisor": "faculty advisor",
+                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                },
+                {
+                    "title": "title",
+                    "studentName": "student name",
+                    "facultyAdvisor": "faculty advisor",
+                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                },
+                {
+                    "title": "title",
+                    "studentName": "student name",
+                    "facultyAdvisor": "faculty advisor",
+                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                },
+                {
+                    "title": "title",
+                    "studentName": "student name",
+                    "facultyAdvisor": "faculty advisor",
+                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                },
+                {
+                    "title": "title",
+                    "studentName": "student name",
+                    "facultyAdvisor": "faculty advisor",
+                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                },
+                {
+                    "title": "title",
+                    "studentName": "student name",
+                    "facultyAdvisor": "faculty advisor",
+                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                }
+            ]
+        }
+    ]
+}

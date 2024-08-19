@@ -1,0 +1,104 @@
+{
+    "reu": [
+        {
+            "time": "9:00 AM - 9:10 AM",
+            "text" : "Deans Welcome"
+        },
+        {
+            "time": "9:10 AM - 9:40 AM",
+            "projectId": "",
+            "title": "A Computerized Search for Unilateral and Equitransitive Tilings by Squares",
+            "studentName": "Fatima Muniz \n\n Harmony Vargas \n\n Rachel Villafranca",
+            "studentMajor": "Mathematics\n\nMathematics\n\nMathematical Sciences",
+            "facultyAdvisor": "Dr. Casey Mann",
+            "posterLink": "./posters/reu/Tiling Group Title Slide.png"
+        },
+        {
+            "time": "10:00 AM - 10:25 AM",
+            "projectId": "",
+            "title": "New Distance Metric for Clustering Narrow Spectral Artifacts",
+            "studentName": "Autumn Marceau \n\n Tyra Collier",
+            "studentMajor": "Physics and Astronomy \n\n Physics",
+            "facultyAdvisor": "Ansel Neunzert",
+            "posterLink": "./posters/reu/Clustering.jpg"
+        },
+        {
+            "time": "10:25 AM - 10:40 AM",
+            "projectId": "",
+            "title": "Investigation of Contaminated Regions Surrounding Violin Mode Artifacts at LIGO Hanford",
+            "studentName": "Taylor Starkman",
+            "studentMajor": "Astronomy and Astrophysics",
+            "facultyAdvisor": "Dr. Ansel Neunzert",
+            "posterLink": "./posters/reu/LIGO.png"
+        },
+        {
+            "time": "10:40 AM - 10:55 AM",
+            "projectId": "",
+            "title": "Everything in \"empty\" space: An Introduction to the ISM and its effects",
+            "studentName": "Maple Matzner",
+            "studentMajor": "Physics",
+            "facultyAdvisor": "Dr. Dan Stinebring",
+            "posterLink": "./posters/reu/ISM.png"
+        },
+        {
+            "time": "10:55 AM - 11:10 AM",
+            "projectId": "",
+            "title": "Synthesis and Characterization of Metallic and Oxide Films on Graphite and Alumina Substrates for Applications in Biotechnology ",
+            "studentName": "Amaya Cook",
+            "studentMajor": " Pre-major",
+            "facultyAdvisor": "Dr. Subramanian Ramachandran ",
+            "posterLink": "./posters/reu/CBIT-1.png"
+        },
+        {
+            "time": "11:20 AM - 11:50 AM",
+            "projectId": "",
+            "title": "An Analysis of Steplength and Initial Direction Selection for an R-Secant Method for Nonsmooth Optimization",
+            "studentName": "Linsen Liu\n\n Jordan Tierney\n\n Trey Wilhoit",
+            "studentMajor": "Applied Mathematics\n\nComputational Applied Mathematics\n\nMathematics, Actuarial Science, Economics-Finance",
+            "facultyAdvisor": "Dr.Milagros Loreto ",
+            "posterLink": "./posters/reu/REU2024_OPT.png"
+        },
+        {
+            "time": "12:00 AM - 1:00 PM",
+            "text" : "Break - Lunch at Dining Pavilion"
+        },
+        {
+            "time": "1:00 PM - 1:15 PM",
+            "projectId": "",
+            "title": "Using TEMPO Satelite Data to Understand Urban Ozone Pollution in Salt Lake City",
+            "studentName": "Shrinidhi Nadgouda",
+            "studentMajor": "Electrical Engineering and Physics ",
+            "facultyAdvisor": "Dan Jaffe",
+            "posterLink": "./posters/reu/TEMPO.png"
+        },
+
+        {
+            "time": "1:15 PM - 1:40 PM",
+            "projectId": "",
+            "title": "How Pacific Northwest Summer Heatwaves are Affected by Wind Direction in a Warming Climate",
+            "studentName": "Jane Umhofer \n\n Murdo Mitchell",
+            "studentMajor": "Atmospheric Science\n\nGeophysics and Meteorology  ",
+            "facultyAdvisor": "Dr. Eric Salathé and Satveer Sandhu ",
+            "posterLink": "./posters/reu/Mitchell & Umhofer.png"
+        },
+        {
+            "time": "1:40 PM - 2:05 PM",
+            "projectId": "",
+            "title": "Analyzing Projected Trends in the Rain Shadow Effect In Washington State",
+            "studentName": "Samantha McKay \n\n Brain Fu",
+            "studentMajor": "Atmospheric and Oceanic Sciences\n\nChemical Physics",
+            "facultyAdvisor": "Dr. Eric Salathé and Satveer Sandhu ",
+            "posterLink": "./posters/reu/Rain Shadow.jpg"
+        },       
+         {
+            "time": "2:15 PM - 2:45 PM",
+            "projectId": "",
+            "title": "CT Image Reconstruction Using Neural Networks",
+            "studentName": "Kailen Bodhi \n\n Emma Conran \n\n Vinisha Bala Dhayanidhi \n\n Kade Phillips",
+            "studentMajor": "Mathematics\n\nMathematics\n\nMathematics, CSSE\n\nMathematics and Computer Science" ,
+            "facultyAdvisor": "Dr. Thomas Humphries",
+            "posterLink": "./posters/reu/CT Image Reconstruction Using Neural Networks.png"
+        }
+        
+    ]
+}

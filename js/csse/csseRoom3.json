@@ -1,0 +1,99 @@
+{
+    "csse": [
+      {
+         "time": "1:00 PM - 1:15 PM",
+         "projectId": "csse-3-100",
+         "title": "PACCAR IT Internship",
+         "studentName": "Ryan Huang",
+         "studentMajor": "CSSE",
+         "projectType": "Internship or Job opportunity",
+         "facultyAdvisor": "Prof. Marc Dupuis",
+         "posterLink": "./posters/csse/huangryan_4257110_122708130_Ryan Capstone Poster 2.png",
+         "abstract": "My capstone project explores my internship experience at PACCAR. I worked on the IT team at PACCAR Corporate, where I contributed to multiple IT projects that focused on connecting the applications side to the business side, automating processes, while carrying out cybersecurity principles. \n\n One project that I worked on was an iPhone refresh project where I organized 500+ iPhones by scanning each single one onto an Excel sheet to track the progress of each phone and assisted in creating a SharePoint to inform employees how to upgrade and return their phones as some employees weren’t technically competent. In addition, I worked on managing a portion of ~2000 groups which were managed by one person using Active Directory, and sorted them in Excel by name, number of members, and appropriate managers to contact. Lastly, I worked on enhancing the Patching Script to have a more comprehensive output by understanding the existing PowerShell script and modifying it to print out the date, computer name, and whether the computer was successfully reached for deploying updates.\n\n The iPhone Refresh project aimed to organize an efficient process of upgrading and returning old employee iPhones to save the company money, and ensuring employees had up to date devices. The AD Groups Ownership project was crucial for maintaining up to date and properly managed Active Directory groups, improving organizational security and optimizing approval procedures. The Patching Script development aimed to improve the accuracy and reliability of computer updates throughout the network.\n\n Overall, the work I completed during my internship contributed to improving PACCAR’s IT operations while maintaining business priorities. My internship at PACCAR provided me with valuable experience in IT operations and technical problem-solving. Not only did I enhance my technical skills, but I also got the chance to create an impact on the company’s operations for greater efficiency, security, and organizational effectiveness. "   
+      },
+        
+      {
+        "time": "1:15 PM - 1:30 PM",
+        "projectId": "csse-3-115",
+        "title": "Employment at Infosys Ltd. - ACIT Labs",
+        "studentName": "Zaid Mohammed Sikander",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Prof. Marc Dupuis",
+        "posterLink": "./posters/csse/zaid.jpg",
+        "abstract": "Over the past 12 weeks, I served as a Software Engineer contractor at Infosys, focusing on automating manual pipelines within Azure DevOps for various Azure applications. My primary task was to transition manual processes into Continuous Integration (CI) and Continuous Deployment (CD) pipelines, particularly for Azure Data Factories (ADF). \n\n The project began with an extensive onboarding phase, where I familiarized myself with the Azure DevOps platform and the specific applications used by our team. These applications spanned compliance management, front-end and back-end portals, data factories, and numerous Azure DevOps pipelines. The challenge was to automate the ADF pipelines, which required migrating data to Azure DevOps, implementing a 1ES pipeline template, and establishing repositories for ADF data. \n\n Throughout the project, I encountered and resolved various issues, including decoding and addressing errors from log files. By the end of the internship, I successfully completed the CI portion of the pipelines and initiated the CD phase. The work significantly reduced manual intervention in the deployment process, enhancing efficiency and reliability.\n\n This project was significant as it not only streamlined existing processes but also laid the groundwork for future automation efforts within the team, contributing to greater overall efficiency and compliance across the managed applications."   
+
+     },
+     {
+       "time": "1:30 PM - 1:45 PM",
+       "projectId": "csse-3-130",
+       "title": "User-Centered Design of Augmentative and Alternative Communication (AAC) Prototype",
+       "studentName": "Humamah Zahrah ",
+       "studentMajor": "CSSE",
+       "projectType": "Faculty research",
+       "facultyAdvisor": "Prof. Annuska Zolyomi",
+       "posterLink": "./posters/csse/zahrahhumamah_4230582_122706723_Capstone Poster (4).png",
+       "abstract": "This capstone project, in collaboration with Professor Annuska Zolyomi and her Interaction Design for Education and Accessibility (IDEA) lab, aimed to develop a prototype for an augmentative and alternative communication (AAC) device, emphasizing enhanced usability and context awareness. The project focused on creating a user-friendly interface that caters to the specific needs of AAC users, particularly young children, by incorporating room-specific vocabulary and time-based scenarios. The research involved both primary and secondary user studies to identify key challenges and requirements for AAC users and their caregivers.\n\n The motivation behind this project was to address the communication barriers faced by AAC users and to enhance their interaction with caregivers and emergency services. By integrating features such as emergency protocols and context-aware vocabulary options, the prototype aims to provide a more intuitive and responsive communication tool for AAC users.\n\n The project resulted in a comprehensive usability study protocol that included scenarios for various environments like the living room, bathroom, bedroom, and kitchen, along with time-sensitive vocabulary adjustments for morning, lunch, and dinner. A Figma prototype was developed to visualize these features, and iterative feedback was incorporated to refine the design. The project also focused on developing an emergency protocol UI, which provides users with helpful tips and instructions, as well as facilitating communication with caregivers and emergency services like 911. The significance of this project lies in its potential to improve the quality of life for AAC users by providing a more adaptable and responsive communication system. The prototype demonstrates the importance of context awareness in AAC devices and offers a framework for future development in this field. By addressing both everyday communication and emergency situations, this project contributes to making the world a better place for AAC users, especially young children, by empowering them with more effective communication tools."   
+
+      },  
+     {
+        "time": "1:45 PM - 2:00 PM",
+        "projectId": "csse-3-145",
+        "title": "Government Contracting Internship",
+        "studentName": "Nour Toblany",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Prof. Marc Dupuis",
+        "posterLink": "./posters/csse/toblanynour_4014884_122744806_CSS 497 Poster.png",
+        "abstract": "During my internship with M2S Contracting, a government contracting company, I focused on identifying and managing government contracts listed on sam.gov. My responsibilities included conducting thorough research on available contracts, selecting appropriate subcontractors, negotiating terms, and ensuring the successful submission of required documentation to the government. The internship involved the management of 40 contracts, which required a combination of strategic decision-making, attention to detail, and effective communication.\n\n During the internship, I aimed to get experience, in government contracting by applying what I've learned in computer science and business to real-world situations. The goal was to enhance my abilities in contract management, research, negotiation, and documentation all essential, for a career involving business and legal matters in the tech sector. Moreover, the internship allowed me to delve into the complexities of government contracting, an area where I hope to advance.\n\n The internship resulted in the successful submission of over 40 contracts. Through this work, I was able to meet the rigorous requirements of government contracts, ensuring compliance and high standards in all submissions. The experience also highlighted the importance of time management and the need to balance multiple tasks simultaneously.\n\n The significance of this internship lies in the practical application of theoretical knowledge from my computer science, software engineering, and business courses. The internship not only provided me with a deep understanding of the government contracting process but also equipped me with essential skills that are directly applicable to my future career goals. By managing a diverse range of contracts and overcoming challenges related to time management and strategic decision-making, I have gained valuable insights into the business side of the tech industry, particularly in a government context.\n\n This capstone internship addressed the complex problem of managing and submitting government contracts by leveraging a systematic approach to research, negotiation, and documentation. The experience has solidified my interest in pursuing a career that bridges the gap between technology and business, particularly in the legal and contractual aspects of the tech industry. The successful completion of this project underscores the importance of applying academic knowledge in real-world scenarios and the value of gaining hands-on experience in a professional setting."   
+     }
+     ,
+     {
+        "time": "2:00 PM - 2:15 PM",
+        "projectId": "csse-3-200",
+        "title": "Thrve.io",
+        "studentName": "Adam Melicke",
+        "studentMajor": "CSSE",
+        "projectType": "Individual project - Student Defined",
+        "facultyAdvisor": "Prof. Afra Mashhadi",
+        "posterLink": "./posters/csse/meilickeadam_4251870_122746163_Capstone Poster.png",
+        "abstract": "Thrve.io is a web-based top-down 2D survival game. Players collect resources, fight enemies, and collaborate or compete with other players. \n\n I created thrve.io to gain hands-on experience with game development. It evolved from a simple single-player project I created in a previous class into a fully-fledged game. I chose to work with the Unity game engine and the C# language because of their extensive documentation and online support. I chose WebGL to render the game in a web browser and selected Unity's Netcode for GameObjects to facilitate communication between the server and the client. \n\n Creating a game requires drawing from a variety of skills. I wrote original code to implement the A* pathfinding algorithm so the game's creatures could navigate around obstacles. To make the world feel fuller, I added NPCs that use that pathfinding to collect resources and craft items like players. They use a task system to select actions based on priority. I also hosted eight testing sessions to find issues and potential features that players would benefit from. Sound effects and music were common recommendations, which I implemented in later weeks. I chose to integrate with Google's authentication system to safely identify players without introducing the privacy and security risks that would come with storing passwords. The system also identifies players using cookies by default. Finally, I spent about a quarter of my time designing sprites for nine creatures, twenty-three objects, and around fifty hand-held items. I also created walking animations for each of the creatures. \n\n After several months of work, thrve.io has intelligent enemies, intuitive crafting and inventory systems, immersive sound, and secure authentication. I released thrve.io in beta, and it is currently playable over the internet. "   
+     }
+     ,
+     {
+        "time": "2:15 PM - 2:30 PM",
+        "projectId": "csse-3-215",
+        "title": "DocuHub: Enhancing Document Management Efficiency",
+        "studentName": "Harmanjit Sandhu",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Prof. Geetha Thamilarasu",
+        "posterLink": "./posters/csse/sandhuharman_4328548_122744743_DOCUHUB CAPSTONE (1).jpg",
+        "abstract": "The DocuHub project was undertaken as part of my capstone internship at Bellmedex, where I contributed to the development of a cloud-based service aimed at improving document management efficiency. The primary objective of the project was to create a secure, streamlined system for managing electronic agreements, with a focus on enhancing user experience and ensuring compliance with regulatory standards such as HIPAA. \n\n The project was motivated by the growing need for healthcare providers and organizations to manage documents efficiently while maintaining high levels of security and compliance. To address these needs, I utilized a combination of front-end technologies (HTML, CSS, JavaScript, Bootstrap) and back-end technologies (PHP, MySQL) integrated with cloud storage solutions (AWS, Wasabi). The development process followed Agile methodology, with regular sprints and feedback loops to refine the system's functionality. \n\n The project's outcome was the successful deployment of DocuHub, which significantly improved users' document management process. The system's intuitive interface and robust backend infrastructure enabled seamless document creation, approval, storage, and sharing, ultimately enhancing user satisfaction and operational efficiency. \n\n The significance of the DocuHub project lies in its ability to provide a scalable and secure solution for document management, addressing critical industry needs. The project not only demonstrated the effectiveness of modern web development practices but also underscored the importance of user-centric design in creating systems that meet the evolving demands of businesses and organizations."   
+     }
+     ,
+     {
+        "time": "2:30 PM - 2:45 PM",
+        "projectId": "csse-3-230",
+        "title": "Software Developer Intern @ Stripe",
+        "studentName": "Barath Saravanan",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": " Prof. Yang Peng",
+        "posterLink": "./posters/csse/saravananbarath_4252921_122745023_CSS497_CapstonePosterFinal_Saravanan.jpg",
+        "abstract": "Stripe, developed with the purpose of increasing the internet's GDP, is a leading financial technology startup that helps businesses by delivering easy and secure payment processing solutions. Stripe's platform serves millions of businesses worldwide, providing an array of solutions designed to facilitate online commerce, with a focus on developer-friendly APIs and strong security features.\n\n The goal of this project is to implement restricted access keys for a specific version of our API. Currently, secret keys are in place and can provide users extensive permissions, which essentially gives them an admin role for the system. In contrast, restricted access keys are intended to provide a more limited level of access, allowing only a subset of rights. This permission structure improves security and gives users greater control over their access permissions. \n\n The implementation of restricted access keys presents a unique challenge, as they do not have an inherent “role” and must dynamically resolve permissions. This requires a comprehensive understanding of permission hierarchies and implications. However, the information about these implied permissions is not readily available in the current domain, which calls for the creation of detailed design documents and extensive collaboration with multiple teams to make this this feature works as intended. \n\n This project is crucial for our team, as it not only addresses a significant user demand for more controlled access but also sets the groundwork for future development of other key types. The outcome of this phase is the successful creation of a minimum viable product for restricted access keys, which will undergo further testing and refinement."   
+     }
+     ,
+     {
+        "time": "2:45 PM - 3:15 PM",
+        "projectId": "csse-3-245",
+        "title": "ParkAhead: A UW Bothell Parking Spot Reservation System",
+        "studentName": "Shivam Bakshi\n\nDavid Schurer",
+        "studentMajor": "CSSE\n\nCSSE",
+        "projectType": "Group project - Student Defined",
+        "facultyAdvisor": "Prof. Jeffrey Kim",
+        "posterLink": "./posters/csse/bakshishivam_4009435_122743934_ParkAhead Poster.png",
+        "abstract": "ParkAhead is a parking spot reservation system website developed by David Schurer and Shivam Bakshi as a group project. The timeline of development consisted of research, implementation, testing, and eventual deployment of the web application. Initial project and requirements research began at the start of the Spring 2024 quarter which then led to UI prototyping and eventual frontend development and database integration in Summer 2024.\n\n While observing and talking with UW Bothell students, we found many had frustrations with wasting both time and fuel when trying to locate a spot on campus during peak hours. This led to the idea of creating an effective solution for this problem with the ParkAhead web application. Throughout the 2-quarter capstone project, we were able to successfully implement a fully functioning website that allowed users to seamlessly reserve parking spots, manage their reservations, and view all reservations currently reserved in the system. We enhanced the security of ParkAhead by integrating Firebase Authentication to verify users when they login to ParkAhead and to ensure only the reservation owner could delete their own reservations. \n\n Further development and refinement of this parking spot reservation system could allow us to integrate our system with the UW parking portal to allow users to use their parking permit to reserve a spot or allow users to pay for a parking reservation without a permit. This system could be scaled up and implemented across other college campuses in order to solve the challenges associated with parking at universities nationwide."   
+     }
+    ]
+}
