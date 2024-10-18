@@ -3,79 +3,80 @@
         {
             "time": "9:40 AM - 9:50 AM",
             "projectId": "eng-1-940",
-            "title": "Healing App",
-            "studentName": "",
-            "studentMajor": "",
-            "projectType": "",
-            "facultyAdvisor": "",
-            "posterLink": "./posters/placeholder/comingsoon.jpg",
+            "title": "Hearing App",
+            "studentName": "Aaron Nguyen\n\nJames Woo\n\n Hans Adovo",
+            "studentMajor": "Electrical Engineering\n\nComputer Engineering\n\nComputer Enginering",
+       
+            "facultyAdvisor": "Prof. Kaibo Nie",
+            "posterLink": "./posters/engineering/Hearing Amplification App_page-0001.jpg",
             "abstract": ""
         },
         {
             "time": "9:50 AM - 10:00 AM",
             "projectId": "eng-1-950",
             "title": "DBW",
-            "studentName": "",
-            "studentMajor": "",
-            "projectType": "",
-            "facultyAdvisor": "",
-            "posterLink": "./posters/placeholder/comingsoon.jpg",
+            "studentName": "Jack Liam Brennan\n\nLeon Nguyen\n\n Qisheng Ning\n\nJustin Kiet Pham",
+            "studentMajor": "Computer Engineering\n\nElectrical Engineering\n\nElectrical Engineering, minor: Mathematics",
+       
+            "facultyAdvisor": "Prof. Tyler Folsom",
+            "posterLink": "./posters/engineering/DBW.jpg",
             "abstract": ""
         },
         {
             "time": "10:00 AM - 10:10 AM",
             "projectId": "eng-1-1000",
             "title": "E-Tractor",
-            "studentName": "",
-            "studentMajor": "",
-            "projectType": "",
-            "facultyAdvisor": "",
-            "posterLink": "./posters/placeholder/comingsoon.jpg",
+            "studentName": "Joseph Bondarchuk\n\nJonathan Hamaker\n\nBenjamin Rawald\n\nJohn Vertner",
+            "studentMajor": "Electrical Engineering\n\nElectrical Engineering, minor: Business Administration\n\nElectrical Engineering\n\nElectrical Engineering",
+       
+            "facultyAdvisor": "Prof. Imen Hannachi",
+            "posterLink": "./posters/engineering/E Tractor Conversion Kit Poster-FINAL_page-0001.jpg",
             "abstract": ""
         },
         {
             "time": "10:10 AM - 10:20 AM",
             "projectId": "eng-1-1010",
             "title": "Telemetry",
-            "studentName": "",
-            "studentMajor": "",
-            "projectType": "",
-            "facultyAdvisor": "",
-            "posterLink": "./posters/placeholder/comingsoon.jpg",
+            "studentName": "Jacob Pedersen\n\nRandy Nguyen",
+            "studentMajor": "Computer Engineering, minor: Mathematics\n\nElectrical Engineering",
+       
+            "facultyAdvisor": "Prof. Imen Hannachi",
+            "posterLink": "./posters/engineering/TELEMETRY Anesthesia Poster.jpg",
             "abstract": ""
         },
         {
             "time": "10:20 AM - 10:30 AM",
             "projectId": "eng-1-1020",
             "title": "ARM CPU",
-            "studentName": "",
-            "studentMajor": "",
-            "projectType": "",
-            "facultyAdvisor": "",
-            "posterLink": "./posters/placeholder/comingsoon.jpg",
+            "studentName": "Sam Ma\n\nAngelica Quinto\n\nForest Zhang",
+            "studentMajor": "Computer Engineering, minor: Mathematics\n\nElectrical Engineering\n\nComputer Engineering",
+       
+            "facultyAdvisor": "Prof. Joe Decuir",
+            "posterLink": "./posters/engineering/ARM CPU Team.jpg\n\n./posters/engineering/ARM CPU on FPGA.jpg",
             "abstract": ""
         },
         {
             "time": "10:30 AM - 10:40 AM",
             "projectId": "eng-1-1030",
             "title": "RetroGaming",
-            "studentName": "",
-            "studentMajor": "",
-            "projectType": "",
-            "facultyAdvisor": "",
-            "posterLink": "./posters/placeholder/comingsoon.jpg",
+            "studentName": "Cong Truong \n\n Mehul Joshi",
+            "studentMajor": "Electrical Enginering\n\nComputer Engineering",
+       
+            "facultyAdvisor": "Prof. Joe Decuir",
+            "posterLink": "./posters/engineering/Retro Video Game Team 2 Poster.jpg",
             "abstract": ""
         },
         {
             "time": "10:40 AM - 10:50 AM",
             "projectId": "eng-1-1040",
-            "title": "Healing App",
-            "studentName": "",
-            "studentMajor": "",
-            "projectType": "",
-            "facultyAdvisor": "",
-            "posterLink": "./posters/placeholder/comingsoon.jpg",
+            "title": "MODBUS",
+            "studentName": "Johnathan Peraza\n\nRussell Hernandez\n\n YanHua Luo\n\nSamuel Pacleb",
+            "studentMajor": "Electrical Engineering\n\nElectrical Engineering\n\nElectrical Engineering\n\nElectrical Engineering",
+       
+            "facultyAdvisor": "Prof. Arnie Berger",
+            "posterLink": "./posters/engineering/MODBUS Capstone Poster.jpg",
             "abstract": ""
         }
+
     ]
 }

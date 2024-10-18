@@ -1,36 +1,42 @@
-import { createPresentationBox, loadTitleToSideNav, sideNavEvent,  closeNav } from './structure.js'
+import { createPresentationBox, readTextFile, loadTitleToSideNav, sideNavEvent,  closeNav } from './structure.js'
 
 window.sideNavEvent = sideNavEvent;
 window.closeNav     = closeNav;
 
 
 
+const NUM_ROOMS = 7
 
 
 
-function loadCSSEPresentations(json_data) {
+async function loadPresentations() {
 
-     
-    let presentations = json_data["presentations"];
-    for (let i = 0; i < presentations.length; i++) {
-        let room_num = presentations[i].roomId;
-        let room_str = "room-" + room_num + "-presentations";
-        let container = document.getElementById(room_str);
-        createPresentationBox(presentations[i], container, true);
+
     
+    let presentations_fetch = await getPresentations()
+    let presentations = presentations_fetch['presentations']
+  
+    for (let i = 0; i < presentations.length; i++) {
+        let roomid = presentations[i].roomId;
+        let container = document.getElementById("room-"+roomid+"-presentations");
+        createPresentationBox(presentations[i], container, true);
     }
 }
 
 
 
-let url = 'http://127.0.0.1:8080/api/major/csse';
+async function getPresentations() {
+    try {
+        let response = await fetch('http://localhost:8080/api/major/csse');
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        let data = await response.json(); 
+        return data; 
+    } catch (error) {
+        console.error("Error fetching presentations:", error);
+        return { presentations: [] }; 
+    }
+}
 
-const response = await fetch(url);
-
-const json = await response.json();
-loadTitleToSideNav(json,'presentations')
-loadCSSEPresentations(json);
-
-
-
-//getJsonData(json);
+  loadPresentations();

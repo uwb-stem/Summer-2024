@@ -1,57 +1,51 @@
-import { createPresentationBox, readTextFile, createPanelDiscussionElement } from './structure.js'
+import { createPresentationBox, createPanelDiscussionElement } from './structure.js'
 
-/**
- * rearrange query result into a list of panel discussions, with a list of presentations
- * @param {*} query_result 
- */
-function preprocess_data(query_result) {
-    const mapped = new Map();
-    const result = {
+
+const getJsonData = async function () {
+
+    let presentations_fetch = await getPresentations()
+    let presentations = presentations_fetch['presentations']
+
+    const panels = {
         ac: []
     };
-    query_result.forEach(element => {
 
-        const panel = element.panel;
-        if (!mapped.has(panel)) {
-            mapped.set(panel, {
-                panel: panel,
-                time: element.time,
-                presentations: []
-            });
+    
+    const panel_map = new Map();
+    presentations.forEach(presentation =>{
+        let panel_name = presentation.panel;
+        if (!panel_map.has(panel_name)){
+            let panel = {
+                        panel: presentation.panel,
+                        time: presentation.time,
+                        presentations: []
+                        }
+            panel_map.set(panel_name, panel);             
         }
-
-        mapped.get(panel).presentations.push({
-            title: element.title,
-            studentName: element.studentName,
-            facultyAdvisor: element.facultyAdvisor,
-            poster: element.poster,
-        })
+        let presentations = panel_map.get(panel_name).presentations;
+        presentations.push(
+            {
+                title: presentation.title,
+                studentName: presentation.studentName,
+                facultyAdvisor: presentation.facultyAdvisor,
+                posterLink: presentation.poster || "./posters/placeholder/comingsoon.jpg"
+            }
+        );
     });
-    result.ac = Array.from(mapped.values());
-    return JSON.stringify(result, null, 2)
-
+    createPanels(panel_map);
 
 }
 
-function createPanels(json_data) {
+function createPanels(panels) {
 
-    let panels = JSON.parse(json_data)["ac"];
-    const content_block = document.getElementsByClassName("acContent_Block");
-    const panel_sections = new Map();
-    let idx = 0
 
+    const content_block = document.getElementsByClassName("acContent_Block")[0];
     panels.forEach(element => {
-
-        if (!panel_sections.has(element.panel)) {
-            panel_sections.set(element.panel, idx)
-            idx++
-        }
 
         const divElement = document.createElement('div');
         divElement.className = 'acContent';
 
-        let section = panel_sections.get(element.panel)
-        content_block[section].appendChild(divElement);
+        content_block.appendChild(divElement);
 
         let panel_element = createPanelDiscussionElement(element.time, element.panel);
         divElement.appendChild(panel_element);
@@ -59,32 +53,42 @@ function createPanels(json_data) {
         let presentations = element.presentations;
         const coldiv = panel_element.children[1]; //todo: do this better, not sure if cols will always be at [1]
         const cols = coldiv.children;
-
+        
         for (let i = 0; i < presentations.length; ++i) {
 
             const container = i % 2 === 0 ? cols[0] : cols[1];
 
+            //assign the presentation to a var, since we need to add AC specific image integration
             let pres = createPresentationBox(presentations[i], container, false, false);
             let img = pres.querySelector('img');
-            img.setAttribute('onclick', 'onClick(this)');
-
+            if(img !== null)
+                img.setAttribute('onclick', 'onClick(this)');
+            
         }
 
-    }
-    );
+    });
 }
 
 
 
-//getJsonData("./js/ac/");
 
-let url = 'http://127.0.0.1:8080/api/major/acmpt';
 
-const response = await fetch(url);
+async function getPresentations() {
+    try {
+        let response = await fetch('http://localhost:8080/api/major/acmpt');
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        let data = await response.json(); 
+        return data; 
+    } catch (error) {
+        console.error("Error fetching presentations:", error);
+        return { presentations: [] }; 
+    }
+}
+getJsonData()
 
-const json = await response.json();
 
-let data = preprocess_data(json['presentations']);
-createPanels(data)
+
 
 

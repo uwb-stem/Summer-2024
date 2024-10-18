@@ -4,26 +4,28 @@ import { createPresentationBox, readTextFile } from './structure.js'
 const NUM_ROOMS = 1;
 
 
+const getJsonData = async function (path) {
 
-function loadPresentations(json_data) {
+    for (let i = 1; i <= NUM_ROOMS; ++i) {
 
-     
-    let presentations = json_data["presentations"];
-    for (let i = 1; i <= presentations.length; i++) {
-        let room_num = presentations[i].roomId;
-        let room_str = "room-" + room_num + "-presentations";
-        presentations[i].studentMajor = 'bio';
-        let container = document.getElementById(room_str);
-        createPresentationBox(presentations[i], container, true);
+        let room_str = "room-" + i + "-presentations";
+        let file_str = path + "math" + i + ".json";
+        let json_data = await readTextFile(file_str);
+        loadMATHPresentations(room_str, json_data);
+
+    }
+}
+
+function loadMATHPresentations(room, json_data) {
+    let container = document.getElementById(room);
+    
+    let presentations = JSON.parse(json_data)["math"];
+   
+    for (let i = 0; i < presentations.length; i++) {
+
+        createPresentationBox(presentations[i], container, false);
     }
 }
 
 
-
-
-let url = 'http://127.0.0.1:5000/api/major/math';
-
-const response = await fetch(url);
-
-const json = await response.json();
-loadPresentations(json);
+getJsonData("./js/math/");

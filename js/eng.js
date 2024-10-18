@@ -1,37 +1,36 @@
 import { createPresentationBox, readTextFile } from './structure.js'
 
 
+const NUM_ROOMS = 1;
 
+async function loadPresentations() {
 
-function loadPresentations(json_data) {
+    let roomid = 1
 
-    const content_block = document.getElementsByClassName("section");
-    const panel_sections = new Map();
-    let idx = 0
-    let presentations = json_data["presentations"];
-    console.log(presentations)
-
+    
+    let presentations_fetch = await getPresentations()
+    let presentations = presentations_fetch['presentations']
+  
     for (let i = 0; i < presentations.length; i++) {
-
-        if (!panel_sections.has(presentations[i].roomId)) {
-            panel_sections.set(presentations[i].roomId, idx)
-            idx++
-        }
-        let room_num = presentations[i].roomId;
-
-        let container_idx = panel_sections.get(room_num);
-        let container = content_block[container_idx]
+        let container = document.getElementById("room-"+roomid+"-presentations");
         createPresentationBox(presentations[i], container, true);
     }
 }
 
 
-let url = 'http://127.0.0.1:8080/api/division/eng';
 
-const response = await fetch(url);
+async function getPresentations() {
+    try {
+        let response = await fetch('http://localhost:8080/api/division/eng');
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        let data = await response.json(); 
+        return data; 
+    } catch (error) {
+        console.error("Error fetching presentations:", error);
+        return { presentations: [] }; 
+    }
+}
 
-const json = await response.json();
-loadPresentations(json);
-
-
-//getJsonData(json);
+  loadPresentations();

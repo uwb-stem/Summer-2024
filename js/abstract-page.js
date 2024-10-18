@@ -1,13 +1,13 @@
 // alert("hello");
-//const projectId = location.search.substring(1);/
-//const room = projectId[5];
-//const jsonfile = 'js/csse/csseRoom' + room + '.json' 
+const projectId = location.search.substring(1);
+const room = projectId[5];
+const jsonfile = 'js/csse/csseRoom' + room + '.json' 
 
-//let abstracts = JSON.parse(readTextFile(jsonfile))['csse'];
+let abstracts = JSON.parse(readTextFile(jsonfile))['csse'];
 
-//studentIndex = findStudent(projectId);
-loadAbstract();
-/*
+studentIndex = findStudent(projectId);
+loadAbstract(studentIndex);
+
 function findStudent(projectId) {
     for (let i = 0; i < abstracts.length; i++) {
         if (abstracts[i].projectId === projectId) {
@@ -15,10 +15,10 @@ function findStudent(projectId) {
         }
     }
 }
-*/
-function loadAbstract() {
-    let abstractFromStorage = JSON.parse(localStorage.getItem("presentationData"));
-   
+
+function loadAbstract(studentIndex) {
+    let abstractFromFile = abstracts[studentIndex];
+
     let container = document.getElementById("abstract");
 
     // Abstract heading with gold bar
@@ -26,31 +26,26 @@ function loadAbstract() {
     heading.classList.add("abstract-heading");
 
     let h1 = document.createElement("h1");
-    h1.innerHTML = abstractFromStorage.title;
-    heading.appendChild(h1);
-
-    for(const name of abstractFromStorage.studentName){
-        let h2 = document.createElement("h2");
-        h2.innerHTML = abstractFromStorage.studentName;
-        heading.appendChild(h2);
-    }
+    h1.innerHTML = abstractFromFile.title;
+    let h2 = document.createElement("h2");
+    h2.innerHTML = abstractFromFile.studentName;
     let goldBar = document.createElement("figure");
 
-   
+    heading.appendChild(h1);
+    heading.appendChild(h2);
     heading.appendChild(goldBar);
 
     container.appendChild(heading);
 
-    
     // abstract
     let projectInfo = document.createElement("p");
     projectInfo.classList.add("text", "abstract-text");
     let type = "Project type";
     type = type.bold();
-    projectInfo.innerHTML = type + ": " + abstractFromStorage.projectType + "<br/>";
+    projectInfo.innerHTML = type + ": " + abstractFromFile.projectType + "<br/>";
     let advisor = "Faculty advisor";
     advisor = advisor.bold();
-    projectInfo.innerHTML += advisor + ": " + abstractFromStorage.facultyAdvisor + "<br/>";
+    projectInfo.innerHTML += advisor + ": " + abstractFromFile.facultyAdvisor + "<br/>";
     container.appendChild(projectInfo);
 
 
@@ -65,7 +60,7 @@ function loadAbstract() {
     }
 
     */
-    let abstract = abstractFromStorage.abstract;
+    let abstract = abstractFromFile.abstract;
     abstract = abstract.split("\n\n");
 
     for (let i = 0; i < abstract.length; i++) {
@@ -75,8 +70,8 @@ function loadAbstract() {
         container.appendChild(abstractText);
     }
 
-    let splitPosters = abstractFromStorage.posterLink.split("\n\n");
-    if(abstractFromStorage.posterLink != "<<NOPOSTER>>" ) loadPosters(splitPosters,container);
+    let splitPosters = abstractFromFile.posterLink.split("\n\n");
+    if(abstractFromFile.posterLink != "<<NOPOSTER>>" ) loadPosters(splitPosters,container);
 
 }
 

@@ -4,17 +4,110 @@
     "csse": [
       
         {
-           "time": "1:00PM - 1:30PM",
+           "time": "1:00 PM - 1:15 PM",
            "projectId": "csse-1-100",
-           "title": "test",
-           "studentName": "",
-           "studentMajor": "",
-           "projectType": "",
-           "facultyAdvisor": "",
-           "posterLink": "./posters/placeholder/comingsoon.jpg",
-           "abstract": ""   
+           "title": "SWE Internship @ Lalitech",
+           "studentName": "Govindcharan Pal ",
+           "studentMajor": "CSSE",
+           "projectType": "Internship or Job opportunity",
+           "facultyAdvisor": "Prof. David Socha",
+           "posterLink": "./posters/csse/palgovind_4248514_122745660_CSS 497 Colloquium Poster.png",
+           "abstract": "For my capstone project, I completed an internship at Lalitech, which is a startup software consulting company. Currently, the company is developing a chat product which will be made available on multiple device types/platforms (mobile, computer, extension in Chrome browser and chat applications such as Google Chat and Slack). This software seeks to unify business-to-business (B2B) communications and provide a secure and compliant conversation channel. My role is to develop AI features of the product and to streamline the company’s overall development processes through things such as writing automated test scripts. \n\n The app being developed aims to connect to popular business messaging applications such as Google Chat, Microsoft Teams, WhatsApp and Slack, and combine them into a single user interface. During my internship, I was first assigned to write automated end-to-end tests for AI features in the product. This required me to learn Puppeteer, a JavaScript library which allows developers to run automated UI front-end tests. Simultaneously, I created automated API tests using TestNG and Maven in Java, which required me to learn these frameworks as well. Then, I completed an AI feature which uses a LLM (Large Language Model) to generate a list of tasks for users based on their conversation and adds it to their “to-do” list, which is a salient feature of the application. This involved learning TypeScript, React.js from Facebook, and prompt engineering in order to complete the front- and back-end parts of this feature. Throughout the course of this internship, I also learned version control features such as pulling, pushing, rebasing, merging conflicts. \n\n This internship helped me grow in my developing journey, as I got exposure to the feeling of adapting quickly to someone else’s codebase and adding my own work on top of it. I also gained experience in the scrum process with tools such as Jira. After talking with many of my peers at the company, I took away the impression that being proactive in getting help, especially in the early stages of my time as a developer, is key to my progress. "   
 
-	}
-    
+	},        {
+        "time": "1:15 PM - 1:30 PM",
+        "projectId": "csse-1-115",
+        "title": "SWE Internship @ Lalitech",
+        "studentName": "Gopalcharan Pal ",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Prof. David Socha",
+        "posterLink": "./posters/csse/palgopalcharan_4375713_122745413_poster.jpg",
+        "abstract": "Staying on top of business communication with various communication methods and platforms is a common challenge faced for many businesses today. This application of Lalitech is designed to improve business productivity and collaboration by integrating common business-to-business (B2B) chat applications – such as Microsoft Teams, Google Chat, and Slack – into one common platform.\n\n The application encompasses a wide scope of features and functionalities, ranging from calendar management by integrating common calendar platforms to AI-generated chatbots. This complexity entails thorough testing. With 4 versions of the software (desktop application, mobile application, web application, and extensions), 10+ features, and thousands of files of code, automated testing becomes crucial in order to ensure scalability. Using Puppeteer.js, a JavaScript library, I automated the testing for an AI feature of the application that generates a summary of chat conversations. I performed this automation for both the mobile as well as desktop versions of the software.\n\n In my latter half of my internship, I focused on utilizing artificial intelligence to automate the process of booking calendar slots and scheduling meetings. After performing user and product research, I figured out that scheduling management is a very common part of our customers’ daily work. Especially for roles such as managers, having to do it very often proves to be cumbersome. My solution determines whether the participants intend to schedule a meeting from an ongoing chat conversation. The solution utilizes React.js, TypeScript, and Native AI. The feature automatically calls the calendar API (i.e. Google Calendar, Zoom Calendar), books the time slot per the discussed date and time, and generates a meeting invite. \n\n The impact of the work performed during the internship has been more scalability for feature testing as well as increased business productivity by the automation of scheduling management."   
+
+     },
+     {
+        "time": "1:30 PM - 1:45 PM",
+        "projectId": "csse-1-130",
+        "title": "Luna mHealth Category Game Design and Coding",
+        "studentName": "Akshay Gopalakrishnan ",
+        "studentMajor": "CSSE",
+        "projectType": "Faculty Research",
+        "facultyAdvisor": "Prof. David Socha",
+        "posterLink": "./posters/csse/gopalakrishnanakshay_4131175_122743861_CapstonePoster_Gopalakrishnan.png",
+        "abstract": "My capstone project focused on Luna mHealth, a mobile application that helps provide health educational content for contexts such as resource-constrained rural, indigenous communities in Panama. I focused on designing and coding category games. I wanted to do this project for the following reasons:\n\n • To help educate people about health topics\n • To experience designing a game for a professional project\n • To experience developing software in a complex environment\n\n I used Figma to design the user interface and user experience for four versions of a category game in which a reader selects the images that match a given prompt, such as “healthy foods.” Since I was designing for the development team, I learned how to use the Azure software sprint board, to indicate what I was working on. \n\n After designing the category games, I transitioned to coding. I documented some issues with the codebase and fixed some bugs. I learned how to use the GitHub repository, and how to do version control operations such as creating new branches and pull requests. I also learned how to use the VsCode debugger and how to set breakpoints. I debugged a file path issue in which a Linux file path and a Windows file path were merged together, creating a file path that is incorrect. \n\n While working on rendering a category game in the mobile application, I learned about working in a complex codebase that was undergoing rapid changes. I learned more about json files, and how to modify the codebase’s parser to extract more information from a powerpoint file. There is still a good deal of work left to get the category games working."   
+     }
+     ,
+     {
+        "time": "1:45 PM - 2:00 PM",
+        "projectId": "csse-1-145",
+        "title": "Internship at Quranic App - BusyPeople LLC",
+        "studentName": "Yousef El-Hindi",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Prof. Dong Si",
+        "posterLink": "./posters/csse/elhindiyousef_4263745_122746071_Capstone Poster El-Hindi.png",
+        "abstract": "During my internship at Quranic / Busy People, I mainly worked on Android mobile development, specifically developing home-screen widgets for the company’s mobile Application. Quranic App is an interactive application that helps Muslim communities worldwide learn and practice Arabic and Islam focusing on The Quran - The holy book of Islam. In Islam, there are 5 mandatory prayers throughout the day. In order, the prayers are Fajr (Dawn), Dhuhr (Afternoon), Asr (Late Afternoon), Maghrib (Sunset), and Isha (Night/Evening). The times of prayers depend on the time of day and the position of Earth relative to the sun. Therefore, the prayer times change slightly throughout the year, and each location has different prayer times. Every prayer has a designated time window for performance, which begins when the call to prayer is made and ends when the next prayer is due. For example, if Asr prayer is called, it can be performed anytime until Maghrib is called. However, there is one exception for the Fajr (Dawn) prayer; it begins at dawn and is performed before sunrise. \n\n The first task my supervisor assigned me was to develop a simple widget to familiarize myself with Android development and Kotlin programming language, which I found very helpful. My main job was to plan, design, and develop two different widgets to help Muslims access and track prayer times including sunrise to track Fajr prayer. I used Figma for the widget design after I was provided with the requirements and icons needed. Afterward, I developed and tested the widgets. The first widget I developed includes the following content: All prayer names and their corresponding due time of the day, the location of the user, and the name and remaining time for the next prayer to keep track. The second widget is smaller and shows the location of the user, the current prayer name and time only, and the remaining time for the next prayer. \n\n My development resulted in fully functional widgets that were nearly identical to the planned design. The home-screen prayer time widgets I developed are useful for many users to save time and easily track and access their prayers. Users with busy schedules and travelers can benefit the most from the widgets. The company would also have the opportunity for profit and user growth since widgets have been a common Android feature, and many companies seek reasons to develop widgets for their mobile applications "   
+     }
+     ,
+     {
+        "time": "2:00 PM - 2:15 PM",
+        "projectId": "csse-1-200",
+        "title": "Improving Visuals and User Interface Design for iCare Mental Health Chatbot",
+        "studentName": "Bryan Nie\n\nJessie Kang",
+        "studentMajor": "North Creek High School\n\nLake Washington High School",
+        "projectType": "Faculty Research",
+        "facultyAdvisor": "Prof. Dong Si",
+        "posterLink": "./posters/csse/Official iCare Poster 2024 Capstone.png",
+        "abstract": ""   
+     }
+     ,
+     {
+        "time": "2:15 PM - 2:30 PM",
+        "projectId": "csse-1-215",
+        "title": "Using Diffusion Transformers to Reconstruct High Resolution Cryo-EM Maps",
+        "studentName": "Andrew Howell",
+        "studentMajor": "CSSE",
+        "projectType": "Faculty Research",
+        "facultyAdvisor": "Prof. Dong Si",
+        "posterLink": "./posters/csse/howellandrewwayne_4145881_122745520_CSSE Capstone Poster.png",
+        "abstract": "Over the past few years, the Data Analysis and Intelligent Systems (DAIS) research group has revolutionized the biochemistry space with their work on DeepTracer, a deep learning model that can take in Cryo-EM maps of biomolecules and output the structure of the atoms. Currently, as part of the development for DeepTracer 3.0, DAIS has been hard at work on an ongoing effort to make DeepTracer more accurate at higher resolutions (<5Å). \n\n A year prior to me joining DeepTracer, the original idea to solve this task was to use super resolution in order to increase DeepTracer’s accuracy. After lots of time spent researching, it became clear that adding an additional step to the DeepTracer pipeline would add way too much overhead for what it was worth. This led the team to make the choice to use diffusion modeling. \n\n Over the past 10 weeks, I spent the vast majority of my time researching. I would head to the library every day and read the most up-to-date papers involving anything related to diffusion, Cryo-EM, and the like. In the first few weeks, I focused on learning the basics of diffusion modeling: how it worked, why it worked, and the complex mathematical proofs behind it. Later, I was tasked with reading Meta’s paper and source code on DiT (diffusion transformers) and DiT-3D’s (Mo et al) source code, as the team working on this task had already begun incorporating DiT-3D’s code to suit our needs. Once the code was in a functional state, I began training the model, running several tests through Wandb and testing different hyperparameters. \n\n So far, the results have been very noisy. The model has been generating pure noise regardless of what the hyperparameters are set to, which leads us to believe that there is an error in the code somewhere. We’ve spent the past few weeks searching for bugs, and while we have had some success, we are still looking for the root cause of the problem, and likely need to do more training in order to find it."   
+     }
+     ,
+     {
+        "time": "2:30 PM - 2:45 PM",
+        "projectId": "csse-1-230",
+        "title": " ",
+        "studentName": "Manasvini Nidoni",
+        "studentMajor": "CSSE",
+        "projectType": "Faculty Research",
+        "facultyAdvisor": "Prof. Dong Si",
+        "posterLink": "./posters/placeholder/comingsoon.jpg",
+        "abstract": ""   
+     }
+     ,
+     {
+        "time": "2:45 PM - 3:00 PM",
+        "projectId": "csse-1-245",
+        "title": "Herbaria",
+        "studentName": "Mason Elmenhurst",
+        "studentMajor": "CSSE",
+        "projectType": "Individual project - Student Defined",
+        "facultyAdvisor": "Prof. Bill Erdly",
+        "posterLink": "./posters/csse/elmenhurstmason_4113261_122736875_20240812_145253(2).jpg",
+        "abstract": "Herbaria is a 2D gardening pixel art side scroller game development project. The player is tasked to help the kingdom of Herbaria back onto its feet. The development of this project focused on three key programming aspects, modularity, data structures, and data persistence.\n\n This project intended to teach players of all ages the basics of how to grow plants and that each plant is different in its required care. This game hopefully will help players subconsciously absorb the concept that each plant is different, and not all plants can thrive with the same kind of treatment.\n\n The finished result is a quality demo of a 2D gardening pixel art side scroller that incorporates multiple quests, plants, decor, themes, music, and extras. There are 15 plants with different requirements logged in the player's Herbarium. There is a short main questline and a randomly generated requests system. The game saves upon exiting from the pause or title screen menu, however the player can only have one save. All inventory items, shop items, and randomly generated quests utilize prefabs which function like a static data structure. Saving uses a serializable dictionary data structure which functions like a regular dictionary however the only difference is the data handler can read a serializable dictionary. All aspects of the code were made to be modular. New characters, items, and crops can be added to the game at any point. Requests will incorporate the new crops and characters, new items will show up in the inventory, etc.\n\n This project was a huge learning experience, mainly in terms of modularity but in other aspects as well. It provided a large amount of experience with data persistence and data structures, and the higher degree of modularity, it was found testing became more simple but the degree of modularity had to be balanced with the amount of time left to complete this capstone. Higher degrees of modularity took more time to code. This project provided a learning curve for the ability to determine what degree of modularity suits a portion of code depending on timing and its function. It also provided more experience in estimating the time it will take to complete certain portions of the game while coding and testing."   
+     }
+     ,
+     {
+        "time": "3:00 PM - 3:30 PM",
+        "projectId": "csse-1-300",
+        "title": "VAX Translate",
+        "studentName": "Mark Lopez\n\nHysong Park",
+        "studentMajor": "CSSE\n\nCSSE",
+        "projectType": "Faculty Research",
+        "facultyAdvisor": "Prof. Bill Erdly",
+        "posterLink": "./posters/csse/lopezmark_4198505_122745008_Vax Translate Poster ( Summer 2024 ).png",
+        "abstract": "Project Overview: Vax Translation instructed by Professor Erdly. Our capstone project focuses on developing a medical application aimed at translating foreign vaccination records into readable and understandable text. This application is designed to facilitate the seamless integration of these records into hospital systems, addressing the prevalent issue of vaccination record rejections due to irrelevance or unreadability. The project is particularly significant for foreign students in the U.S., who often face challenges in having their vaccination records accepted.\n\n Purpose: The primary purpose of this project is to streamline the process of transferring vaccination records to hospital databases, thereby reducing the number of rejected records. This is crucial for ensuring that foreign students can meet the vaccination requirements necessary for their studies in the U.S. By providing a reliable and efficient solution, the project aims to alleviate the administrative burden on healthcare providers and support the academic aspirations of foreign students.\n\n Methodology: To achieve our objectives, we employed a combination of front- end and back-end technologies. The front-end development was primarily handled using HTML, CSS, and JavaScript, ensuring a user-friendly interface for nurses and healthcare providers. For the back-end, we utilized Python and Flask to handle the logic and data processing. MySQL was chosen for database management due to its robustness and reliability. Additionally, AWS was used for hosting the application, ensuring scalability and accessibility.\n\n Team collaboration was facilitated through tools like Discord and Zoom for regular communication and meetings. Visual Studio Code was the primary coding environment, providing an integrated development experience. GitHub was used for version control, allowing seamless collaboration and code sharing among team members. To generate sample data for testing, we used Mockaroo and AI- based tools, ensuring that the application could handle a variety of vaccination records.\n\n Results: The application successfully translates foreign vaccination records into a format that is easily understandable by nurses and can be seamlessly integrated into hospital systems. This has led to a significant reduction in the rejection of vaccination records, facilitating the acceptance of foreign students’ vaccination records in the U.S. The project has demonstrated the feasibility and effectiveness of using technology to solve real-world problems in the healthcare sector. Significance: The significance of this project lies in its ability to address a critical issue faced by foreign students and healthcare providers. By ensuring that vaccination records are readable and relevant, the application helps reduce the administrative burden on healthcare providers and supports the academic aspirations of foreign students. Additionally, the project provided valuable hands- on experience in software development, database design, and team collaboration, further enhancing our technical competencies. This experience has been instrumental in preparing us for real-world challenges in the software engineering field.\n\n This abstract provides a comprehensive overview of the project’s objectives, methods, results, and significance, highlighting the major themes and accomplishments of our capstone work."   
+     }
     ]
 }

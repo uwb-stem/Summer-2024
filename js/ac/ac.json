@@ -1,7 +1,7 @@
 {
     "ac": [
         {
-            "panel": "panel",
+            "pannel": "pannel",
             "time":"0:00-0:00",
             "presentations": [
                 {
@@ -37,7 +37,7 @@
             ]
         },
         {
-            "panel": "panel",
+            "pannel": "pannel",
             "time":"0:00-0:00",
             "presentations": [
                 {
@@ -62,7 +62,7 @@
         }
         ,
         {
-            "panel": "panel",
+            "pannel": "pannel",
             "time":"0:00-0:00",
             "presentations": [
                 {

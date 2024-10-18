@@ -1,13 +1,44 @@
 {
     "bio": [
+
         {
-            "time": "11:30 AM - 11:45 AM",
+            "time": "10:15 AM - 10:35 AM",
             "projectId": "project id",
-            "title": "A Call to Action: Mobbing Vocalizations of the American Crow",
-            "studentName": "Kyla Burch\n\nZaryab Bushra\n\nAl-Jeffrey De Villa\n\nCharley McDaneld\n\nNathan Sam\n\nDaniel Tesfaye",
-            "studentMajor": "Biology, BS – minor Neuroscience\n\nBiology, BS – minor(s) Health Studies, Neuroscience (Bothell)\n\nBiology, BS\n\nBiology, BS – minor Chemistry\n\nBiology, BS\n\nBiology, BS – minor Neuroscience ",
-            "facultyAdvisor": "Dr. Doug Wacker",
-            "posterLink": "./posters/placeholder/comingsoon.jpg"
+            "title": "Coral Genome Assembly from Mixed Samples",
+            "studentName": "Katie Grinnell\n\nErin Holtz\n\nJahnavi Vibhuthi ",
+            "studentMajor": "Biology (BS)\n\n Biology (BS), Minor: Health Studies\n\n Biology (BS), Minor: Health Studies",
+            "facultyAdvisor": "Prof. Jesse Zaneveld",
+            "posterLink": "./posters/bioslides/Coral Genome Assembly from Mixed Samples.jpg"
+        },
+        {
+            "time": "10:35 AM - 10:40 AM",
+            "text" : "Break"
+        },
+        {
+            "time": "10:40 AM - 11:00 AM",
+            "projectId": "project id",
+            "title": "Regulating the Reef: Testing Whether the Evolution of C-Type Lectins has Structured Coral Microbiome Diversity",
+            "studentName": "Shabbir Habib\n\nZubairu Minteh\n\nJiwan Tib",
+            "studentMajor": "Biology (BS)\n\n Biology (BS), Minor: Health Studies\n\n Biology (BS), Minor: Health Studies and Global Health",
+            "facultyAdvisor": "Prof. Jesse Zaneveld",
+            "posterLink": "./posters/bioslides/reef.jpeg"
+        },
+        {
+            "time": "11:00 AM - 11:05 AM",
+            "text" : "Break"
+        },
+        {
+            "time": "11:05 AM - 11:25 AM",
+            "projectId": "project id",
+            "title": "Coral Disease Susceptibility with the Abundance of Endozoicomonas and Trait Predictions",
+            "studentName": "Obed Agyei  \n\nTanbir Bhandal \n\nMariia Kanievska\n\nArmaan Monavari\n\nJaden Oliva",
+            "studentMajor": "Biology (BS)\n\nBiology (BS)\n\nBiology (BS)\n\nBiology (BS)\n\nBiology (BS)",
+            "facultyAdvisor": "Prof. Jesse Zaneveld",
+            "posterLink": "./posters/bioslides/corals.png"
+        },
+        {
+            "time": "11:30 AM",
+            "text" : "Pizza at Innovation Hall lower level"
         }
     ]
 }
