@@ -1,13 +1,31 @@
 {
     "chem+phys": [
         {
-            "time": "",
+            "time": "0:00 AM - 0:00 AM",
             "projectId": "project id",
-            "title": "Synthesis and Characterization of Metallic and Oxide Films on Graphite and Alumia Substrates for Applications in Biotechnology",
-            "studentName": "Amaya Cook",
-            "studentMajor": " Pre-major (Bothell)",
-            "facultyAdvisor": "Prof. Subramanian Ramachandran",
-            "posterLink": "./posters/phys/Amaya Cook poster Presentation - Copy - Copy (2)_page-0001.jpg"
+            "title": "title",
+            "studentName": "student name",
+            "studentMajor": "student major",
+            "facultyAdvisor": "faculty advisor",
+            "posterLink": "./posters/placeholder/comingsoon.jpg"
+        },
+        {
+            "time": "0:00 AM - 0:00 AM",
+            "projectId": "project id",
+            "title": "title",
+            "studentName": "student name",
+            "studentMajor": "student major",
+            "facultyAdvisor": "faculty advisor",
+            "posterLink": "./posters/placeholder/comingsoon.jpg"
+        },
+        {
+            "time": "0:00 AM - 0:00 AM",
+            "projectId": "project id",
+            "title": "title",
+            "studentName": "student name",
+            "studentMajor": "student major",
+            "facultyAdvisor": "faculty advisor",
+            "posterLink": "./posters/placeholder/comingsoon.jpg"
         }
     ]
 }

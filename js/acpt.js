@@ -1,53 +1,90 @@
 import { createPresentationBox, readTextFile, createPanelDiscussionElement } from './structure.js'
 
+/**
+ * rearrange query result into a list of panel discussions, with a list of presentations
+ * @param {*} query_result 
+ */
+function preprocess_data(query_result) {
+    const mapped = new Map();
+    const result = {
+        ac: []
+    };
+    query_result.forEach(element => {
 
-const getJsonData = async function (path) {
+        const panel = element.panel;
+        if (!mapped.has(panel)) {
+            mapped.set(panel, {
+                panel: panel,
+                time: element.time,
+                presentations: []
+            });
+        }
 
-    let json_data = await readTextFile(path + "ac.json");
-    createPannels(json_data);
+        mapped.get(panel).presentations.push({
+            title: element.title,
+            studentName: element.studentName,
+            facultyAdvisor: element.facultyAdvisor,
+            poster: element.poster,
+        })
+    });
+    result.ac = Array.from(mapped.values());
+    return JSON.stringify(result, null, 2)
 
 
 }
 
-function createPannels(json_data) {
+function createPanels(json_data) {
 
-    // let container = document.getElementById(room);
+    let panels = JSON.parse(json_data)["ac"];
+    const content_block = document.getElementsByClassName("acContent_Block");
+    const panel_sections = new Map();
+    let idx = 0
 
-    let pannels = JSON.parse(json_data)["ac"];
-    const content_block = document.getElementsByClassName("acContent_Block")[0];
-    pannels.forEach(element => {
+    panels.forEach(element => {
+
+        if (!panel_sections.has(element.panel)) {
+            panel_sections.set(element.panel, idx)
+            idx++
+        }
 
         const divElement = document.createElement('div');
         divElement.className = 'acContent';
 
-        content_block.appendChild(divElement);
+        let section = panel_sections.get(element.panel)
+        content_block[section].appendChild(divElement);
 
-        let pannel_element = createPanelDiscussionElement(element.time, element.pannel);
-        divElement.appendChild(pannel_element);
+        let panel_element = createPanelDiscussionElement(element.time, element.panel);
+        divElement.appendChild(panel_element);
 
         let presentations = element.presentations;
-        const coldiv = pannel_element.children[1]; //todo: do this better, not sure if cols will always be at [1]
+        const coldiv = panel_element.children[1]; //todo: do this better, not sure if cols will always be at [1]
         const cols = coldiv.children;
-        
+
         for (let i = 0; i < presentations.length; ++i) {
 
             const container = i % 2 === 0 ? cols[0] : cols[1];
 
-            //assign the presentation to a var, since we need to add AC specific image interation
             let pres = createPresentationBox(presentations[i], container, false, false);
             let img = pres.querySelector('img');
             img.setAttribute('onclick', 'onClick(this)');
-            
+
         }
 
-    });
+    }
+    );
 }
 
 
 
-getJsonData("/js/ac/");
+//getJsonData("./js/ac/");
 
+let url = 'http://127.0.0.1:8080/api/major/acmpt';
 
+const response = await fetch(url);
 
+const json = await response.json();
+
+let data = preprocess_data(json['presentations']);
+createPanels(data)
 
 

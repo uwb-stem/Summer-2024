@@ -1,36 +1,36 @@
-import { createPresentationBox, readTextFile, loadTitleToSideNav, sideNavEvent,  closeNav } from './structure.js'
+import { createPresentationBox, loadTitleToSideNav, sideNavEvent,  closeNav } from './structure.js'
 
 window.sideNavEvent = sideNavEvent;
 window.closeNav     = closeNav;
 
 
 
-const NUM_ROOMS = 7
 
 
-const getJsonData =  async function (path) {
 
-    for (let i = 1; i < NUM_ROOMS; ++i) {
+function loadCSSEPresentations(json_data) {
 
-        let room_str = "room-" + i + "-presentations";
-        let file_str = path + "csseRoom" + i + ".json";
-        let json_data = await readTextFile(file_str);
-        loadCSSEPresentations(room_str, json_data);
-        loadTitleToSideNav(json_data, "csse");
-
-    }
-}
-
-function loadCSSEPresentations(room, json_data) {
-
-    let container = document.getElementById(room);
-    
-    let presentations = JSON.parse(json_data)["csse"];
+     
+    let presentations = json_data["presentations"];
     for (let i = 0; i < presentations.length; i++) {
-
+        let room_num = presentations[i].roomId;
+        let room_str = "room-" + room_num + "-presentations";
+        let container = document.getElementById(room_str);
         createPresentationBox(presentations[i], container, true);
+    
     }
 }
 
 
-getJsonData("./js/csse/");
+
+let url = 'http://127.0.0.1:8080/api/major/csse';
+
+const response = await fetch(url);
+
+const json = await response.json();
+loadTitleToSideNav(json,'presentations')
+loadCSSEPresentations(json);
+
+
+
+//getJsonData(json);

@@ -11,22 +11,21 @@ $(document).ready( function () {
     $(function() {
         $('#room-1-button').addClass("chosen"); 
 
-        for (let i = 1; i <7; i++) {
+        for (let i = 1; i <= 9; i++) {
             $('#room-'+i+'-button').addClass("notChosen");
         }
     });
 
     $('.room-button').click(function(e) {
         let roomId = $(this).attr('data-section')[5]
-      
         switchRoom(e, roomId);
     });
         
     var switchRoom = function(e, roomId) {
         e.preventDefault();
         currentRoom = roomId;
-   
-        for (let i = 1; i < 7; i++) {
+
+        for (let i = 1; i <= 9; i++) {
             $('#room-' + i + "-button").removeClass("chosen").addClass("notChosen");
             $('#room-' + i + "-presentations").hide();
         }
@@ -35,25 +34,23 @@ $(document).ready( function () {
 
         return false;
     };
-    $(document).ready(function() {
-        $('.sidenav').on('click', '.sidenav-title', function(e) {
-            e.preventDefault();
-            // closeNav();
-            projectId = $(this).attr('data-id');
-           
-            room = parseInt(projectId[5]);
-    
-            if (room !== currentRoom) {
-                $.when(switchRoom(e, room)).done(scrollToProject(projectId));
-            } else {
-                scrollToProject(projectId);
-            }
-        });
+
+    $('.sidenav-title').click(function(e) {
+        e.preventDefault();
+        // closeNav();
+        projectId = $(this).attr('data-id');
+        room = parseInt(projectId[5]);
+
+        if (room !== currentRoom) {
+            $.when(switchRoom(e, room)).done(scrollToProject(projectId));
+        } else {
+            scrollToProject(projectId);
+        }
     });
-    
+
     var scrollToProject = function(projectId) {
         
-       
+
         $('html, body').animate({
             scrollTop: $('#' + projectId).offset().top
         }, 1000);

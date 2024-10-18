@@ -1,112 +1,20 @@
+
+
 {
     "csse": [
       
         {
-           "time": "1:00 PM - 1:15 PM",
-           "projectId": "csse-6-100",
-           "title": "Full-Stack GenAI Development for Dell Technologies",
-           "studentName": "Cami Lacy ",
-           "studentMajor": "CSSE",
-           "projectType": "Internship or Job opportunity",
-           "facultyAdvisor": "Prof. Min Chen",
-           "posterLink": "./posters/csse/lacycami_4104672_122698177_CSS497 Capstone Poster.jpg",
-           "abstract": "Over the course of this summer, I have worked with the AI Innovation and Research Dojo team for the development of our project. The purpose of the work for this summer was to help with establishing a more secure platform for internal documentation and shared services. It is an existing, ongoing project that implements an extensive range of tech stacks in addition to extreme programming methodologies. There were no sprints, but each day introduced standup meetings in the morning that were useful for allocating Jira stories. These tasks would be shared between engineers, and we would each pair program for the purpose of live code reviews. Due to the shared stories and robust CI/CD pipeline (continuous integration, continuous development), our team primarily pushed changes directly to main. If the pipeline passed all the tests then the code would be successfully merged.\n\n As dictated by our team lead, the interns were treated like full-time engineers, and they were assigned various partners for the new Jira stories that were posted each day. This experience enabled me a great deal of insight into the processes of more veteran employees that would explain the softwares, and they taught us through many different coding languages. I really enjoyed how this pair programming allowed us to work with everyone on the team and see the entire project endpoints. My particular range of stories spanned several different areas: Research documentation, frontend bug fixes, backend development, project rebasing, user studies, internal software replacement, and more. This internship will continue until September 6 so I will have many more opportunities for additional stories to work on, and the project will continue to grow after the end of my term. "   
+           "time": "",
+           "projectId": "",
+           "title": "test",
+           "studentName": "",
+           "studentMajor": "",
+           "projectType": "",
+           "facultyAdvisor": "",
+           "posterLink": "./posters/placeholder/comingsoon.jpg",
+           "abstract": ""   
 
-	},        
-    {
-        "time": "1:15 PM - 1:30 PM",
-        "projectId": "csse-6-115",
-        "title": "Product Decline Analyzer",
-        "studentName": "Rohit Suri",
-        "studentMajor": "CSSE",
-        "projectType": "Internship or Job opportunity",
-        "facultyAdvisor": "Prof. Min Chen",
-        "posterLink": "./posters/csse/surirohit_4045707_122661781_Poster 2mb 1.jpg",
-        "abstract": " For my capstone project, I have created a product lifecycle analyzer for NewLife’s Amazon seller page. At the end of a product’s lifecycle, sales trend downwards and it is often replaced with a new product. NewLife was having a difficult time tracking this downwards trend with Amazon’s current seller tools. The current tools require too much manual labor and can be unreliable. Furthermore, a seller must check the performance of their products in each country they sell in. If a product is not caught, it can result in accidentally purchasing and stocking items that will not sell, causing a loss in profits, and a negative impact on an Amazon seller’s health page. \n\n My program takes in a given number of months, along with a maximum number of sales (Ex: “show me every item that has had 5 or less sales in the past 4 months”), and creates a report of every product that matches the criteria for sales in both the United States and Canada (the two countries Newlife App sells in). My software accomplishes this through the use of Selling Parter API (SP-API), several of Amazon’s web services (ECR, ECS, IAM, STS, CloudWatch), Flask for the front-end framework, and Python for the back-end. Docker was also used for containerization. I chose a cloud approach to my project for elastic scalability as NewLife grows, along with simplicity for the end user. Being hosted on an ECS instance allows my project to be accessible through a simple web URL.\n\n This project is significant because it has saved NewLife roughly 1-3 hours of manual labor daily, thus significantly increasing efficiency error reduction. While my project was created for NewLife, it is easily transferrable to any Amazon seller regardless of the number of sales they have, so it can make a large impact in the industry. "   
-
-     },
-     {
-        "time": "1:30 PM - 1:45 PM",
-        "projectId": "csse-6-130",
-        "title": "Individual Project - Writing Star",
-        "studentName": "Chin Cheung Lam",
-        "studentMajor": "CSSE",
-        "projectType": "Individual project - Student Defined",
-        "facultyAdvisor": "Prof. Min Chen",
-        "posterLink": "./posters/csse/lamchincheung_4243877_122733989_Summer 2024 CSSE capstone poster.png",
-        "abstract": "The demand for high-quality, creative writing has reached unprecedented levels in the rapidly growing content creation field. Writers often need more time to create engaging narratives while maintaining grammatical accuracy quickly, a challenge that can stifle creativity and reduce productivity. This capstone project addresses these challenges by developing artificial intelligence applications that leverage artificial intelligence (AI), natural language processing (NLP), and machine learning (ML) technologies. The main goal is to assist authors in generating ideas and providing instant grammatical corrections, enhancing creativity and improving content quality.\n\n This project integrates several key components to achieve this goal. The first component is a story outline generation and story continuation tool powered by the AI model gpt-4o-mini. The model is specifically designed to generate a coherent and contextually appropriate synopsis based on user prompts and seamlessly continue an existing narrative. This feature helps writers overcome writing blocks and promotes the development of new and innovative ideas.\n\n The second part focuses on grammar correction, leveraging the fine-tuned davinci-002 model. The model is trained on the data set, gtp3_training_data.json, which is processed to ensure that it provides accurate and contextual grammatical corrections. Grammar correction tools are designed to be easy to use, allowing writers to focus more on their creative process without getting bogged down in technical writing errors. The significance of this project lies in its ability to combine creative content generation with practical writing assistance. By reducing the time and effort required to develop narratives and polish texts, the platform allows writers to focus more on the creative aspects of writing. This is especially valuable in today's content-driven world, where the ability to produce high-quality written material quickly is a significant advantage. The outcome of this project is a comprehensive platform that not only supports writers in their creative endeavors but also enhances the overall quality of their work. By integrating these advanced NLP and ML technologies into a user-friendly web interface, the "   
-     }
-     ,
-     {
-        "time": "1:45 PM - 2:00 PM",
-        "projectId": "csse-6-145",
-        "title": "Enhancing the Melodic Transcription in Indigenous Language Documentation and Application (MeTILDA)",
-        "studentName": "Sovannara Tav",
-        "studentMajor": "CSSE",
-        "projectType": "Faculty research",
-        "facultyAdvisor": "Prof. Min Chen",
-        "posterLink": "./posters/csse/tavsovannara_4128782_122741685_CSS497_CSSECapstonePoster_FinalScreenshot_TavS.PNG",
-        "abstract": "MeTILDA is a cloud-based platform for linguistic researchers, teachers, and students to learn, perform analysis, and document in preserving endangered languages. It integrates the use of Praat, a software tool that allows users to visualize audio recordings and perform tasks such as spectrogram analysis, formant analysis, and pitch and intonation tracking. In addition, it incorporates the use of EUDICO Linguistic Annotator (ELAN) for users to create and edit annotations when analyzing audio recordings. \n\n The platform with a version control and collaboration system implemented enables users to create, edit, and share Pitch Art, a visual aid to represent the pitch movement and nuance in pitch changes of endangered languages that utilize pitch and where changes in the pitch can result in different meanings of words such as Blackfoot. Other functionalities provided include users recording and practicing their pronunciation when learning from their Pitch Arts, a converter calculator tool, management of Pitch Arts, audio recording, and annotation files as well as a built-in communication system to exchange messages between MeTILDA and non-MeTILDA users.\n\n To enhance the MeTILDA website application, I assessed the user interface and presented a set of design changes to be implemented in the future to provide a high color contrast ratio as well as improve accessibility and readability for users with color blindness. I also evaluated the keyboard accessibility of the application and indicated any issues to be addressed in the future to ensure users with motor impairments or those who preferred using the keyboard rather than a mouse could interact and navigate through the application without encountering any difficulties. I updated the landing page with additional information not included in previous iterations of the website application. I also renovated the converter calculator tool to be more intuitive for users to use and aligned with the interests of MeTILDA’s stakeholders. I also revised the learn page to ensure any selected Pitch Art preview image appears in the Pitch Art window with the correct and corresponding audio recordings, annotations, and data. Lastly, I helped graduate students on the MeTILDA research team to test and provide feedback on their applications which included the MeTILDA website application itself, a Duolingo-style MeTILDA mobile application, and a MeTILDA endangered language e-learning platform on their strengths and areas of improvement."   
-     }
-     ,
-     {
-        "time": "2:00 PM - 2:15 PM",
-        "projectId": "csse-6-200",
-        "title": "TechEase: Full-Stack Web Development",
-        "studentName": "Samar Malla",
-        "studentMajor": "CSSE",
-        "projectType": "Group project - Student Defined",
-        "facultyAdvisor": "Prof. Min Chen",
-        "posterLink": "./posters/csse/mallasamar_3789690_122743219_Final Full Stack Web Development.png",
-        "abstract": "The TechEase Rentals web application is a full-stack project developed as part of a capstone experience aimed at creating a user-friendly platform for renting advanced tech equipment such as laptops, cameras, tablets, and headphones. The project involved designing and implementing a comprehensive solution that integrates frontend and backend technologies to provide users with a seamless experience while browsing, selecting, and renting equipment based on real-time availability.\n\n The primary objective was to address the challenges faced by users in accessing affordable and high-quality tech equipment for various needs, including gaming, professional work, and content creation. The platform was designed to be intuitive, with features like dynamic stock management, user authentication, and a robust admin panel for managing inventory and tracking rentals.\n\n The development process included using technologies such as Java, Spring Boot, HTML, CSS, JavaScript, and RESTful APIs to build a responsive and interactive application. The backend logic was thoroughly integrated with the frontend UI to ensure data consistency and real-time updates. This included implementing a system that dynamically adjusts stock availability based on rental periods and prevents double booking. The result was a fully functional responsive platform that not only meets the needs of users but also provides administrators with the necessary tools to manage operations efficiently. The significance of this project lies in its ability to offer a scalable and efficient solution for tech rentals, catering to a wide audience and potentially reducing the cost barriers associated with accessing advanced technology.\n\n In conclusion, the TechEase Rentals project successfully addresses the problem of tech equipment accessibility by providing a well-rounded solution that combines affordability, user-friendliness, and administrative control. The project also served as a practical learning experience in full-stack development, project management, and problem-solving within a real-world context. "   
-     }
-     ,
-     {
-        "time": "2:15 PM - 2:30 PM",
-        "projectId": "csse-6-215",
-        "title": "Full-Stack Development for TechEase",
-        "studentName": "Sandesh Rai",
-        "studentMajor": "CSSE",
-        "projectType": "Group project - Student Defined",
-        "facultyAdvisor": "Prof. Min Chen",
-        "posterLink": "./posters/csse/raisandesh_4284916_122743046_Capstone Poster.png",
-        "abstract": "This project is focused on developing the back end along with the front end for a tech equipment rental platform targeting college students. The main goal was to create a secure, efficient, and easy-to-use website that let students rent high-tech equipment at an affordable price. Key features includes user management, equipment availability checks, payment processing, and a dynamic review and rating system.\n\n The platform was necessary because many students could not afford the expensive tech equipment needed for their studies and projects. The backend system is designed to manage user data efficiently, keep track of equipment availability in real time, and securely handle rentals and payments. The rating system was also implemented to allow users to see real-time feedback on equipment quality, helping to build trust and transparency.\n\n I used Java and Spring Boot to develop the backend, with PostgreSQL as the database. Spring Security is implemented to ensure role-based authentication, distinguishing between admin and user roles. The equipment management system was built to provide real-time updates, making the rental process smooth and accurate. The review and rating system allowed users to share and view feedback on the equipment.\n\n The final product is a completely functional backend system with a functional front-end system that supports the essential operations of the platform. This system is significant because it provides a scalable solution for managing tech equipment rentals and ensures that the students can access the tools they need while maintaining security and data integrity."   
-     }
-     ,
-     {
-        "time": "2:30 PM - 2:45 PM",
-        "projectId": "csse-6-230",
-        "title": "ZATENA: A Medical Translation APP",
-        "studentName": "Kerima Hussen",
-        "studentMajor": "CSSE",
-        "projectType": "Individual project - Student Defined",
-        "facultyAdvisor": "Ms. Nancy Kool",
-        "posterLink": "./posters/csse/hussenkerimam.jpeg",
-        "abstract": "Zatena is an innovative translation app designed to address the critical language barriers in healthcare between Amharic speakers in the Ethiopian immigrant community and English speakers. Despite the growing Amharic-speaking population, no dedicated medical translation tool exists, leaving a significant gap that Zatena aims to fill. The project’s primary motivation is to enhance communication between patients and healthcare providers, particularly in medical emergencies where clear and accurate translation is crucial for patient outcomes.\n\n The core problem tackled by Zatena is the lack of accessible and accurate medical translation for Amharic speakers. This app is specifically tailored to handle medical terminology, ensuring that both patients and healthcare providers can communicate effectively. The scope of the project includes not just translation but also usability, catering to users with limited technical skills or literacy.\n\n To solve this problem, Zatena leverages a robust translation engine powered by specialized APIs, including Google Cloud Translation API, and custom dictionaries focused on medical terminology. The app integrates advanced features such as speech recognition for voice input and text-to-speech for output, making it a comprehensive tool for both patients and providers. Technologies including React Native for cross-platform development, Firebase for real-time database management, and Microsoft Azure for cloud services were also utilized, along with Node.js for backend development, GitHub for version control, and Figma for UI/UX design.\n\n One of the significant challenges faced during the development was the initial unfamiliarity with several tools and software required for the project. Extensive learning and adaptation were necessary to integrate these technologies effectively. Additionally, the feedback from my sponsor, Nejat, was invaluable, especially in refining the UI/UX design. Her insights helped shape the app’s interface, ensuring it was not only functional but also accessible to users with varying levels of technical expertise.\n\n In conclusion, Zatena is set to make a substantial impact on healthcare accessibility and quality for Amharic speakers. By bridging the language gap in medical settings, this app not only facilitates better communication but also contributes to more informed and timely healthcare decisions, ultimately improving patient outcomes."   
-     }
-     ,
-     {
-        "time": "2:45 PM - 3:00 PM",
-        "projectId": "csse-6-245",
-        "title": "SocialNexus & OAuth 2.0",
-        "studentName": "Ryan Lynch",
-        "studentMajor": "CSSE",
-        "projectType": "Individual project - Student Defined",
-        "facultyAdvisor": "Ms. Nancy Kool",
-        "posterLink": "./posters/csse/lynchryanp_3184418_122738917_RyanLynch_PosterFinal.png",
-        "abstract": "This capstone project involved the creation of SocialNexus, a social media aggregator empowering users by pulling data from their social media accounts into one location (found at my domain www.social-nexus.net). Integral to the success of this capstone project was the implementation of OAuth 2.0, an IEEE standard, for resource sharing.\n\n To implement OAuth 2.0, boilerplate code was customized for two servers: the SocialNexusClient (SNC) and the SocialNexusService(SNS). For both, code was written using C# and the dotnet framework. These servers communicate with the Azure B2C Authentication and Authorization server using the OAuth 2.0 standard.\n\n To allow for this communication, an Azure B2C instance was created using the Microsoft Azure portal. Once ready, both the SNC and the SNS were registered as applications with rights to access Azure B2C. The following information was recorded from Azure B2C: the tenant id of the Azure B2C instance, a client id for each SocialNexus server, and a secret for each SocialNexus server. The SNC was created using the ‘dotnet new webapp -auth IndividualB2C’ command. Using the recorded information, the values in the generated appsettings.json file are filed out; this enabled the connection the SNC with Azure B2C. A similar procedure was followed for the SNS.\n\n Further configuration was required to create scopes inside Azure B2C. These scopes define the communication between SNC and SNS, as well as determining what information is allowed to be passed between them. Putting SNC and SNS into production involved writing yaml files which described their deployment. These files were used to deploy SocialNexus inside a Kubernetes cluster.\n\n Challenges included navigating the Azure B2C portal, customizing ASP.NET Core middleware, avoiding legacy documentation on the Microsoft learn website, and managing scope creep.\n\n In its current state, SocialNexus is a working example of an OAuth 2.0 compliant SaaS (Software as a Service) product. It lays the groundwork for interfacing with other OAuth 2.0 compliant software, which will enhance the offerings of SocialNexus. "   
-     }
-     ,
-     {
-        "time": "3:00 PM - 3:15 PM",
-        "projectId": "csse-6-300",
-        "title": "City Tour: Seattle Tourism Web Application",
-        "studentName": "Keyse Ahmed ",
-        "studentMajor": "CSSE",
-        "projectType": "Internship or Job opportunity",
-        "facultyAdvisor": "Ms. Nancy Kool",
-        "posterLink": "./posters/csse/ahmedkeyse_4230607_122743016_Ready_to_post.png",
-        "abstract": "The City Tour Capstone Project is designed to develop an interactive and comprehensive web application for tourists visiting the Seattle, Washington, area. This project aims to provide users with detailed information on attractions, accommodations, dining options, transportation, safety, and cultural norms, all within an easy-to-navigate platform. The application features an interactive map, an events calendar, custom tours, and real-time weather updates; all together, these features offer a complete tool for planning and enhancing a visitor’s experience in Seattle.\n\n Over an 8-week period, the project followed a structured plan, beginning with initial research and planning, where key features and requirements were identified, and the project repository was established on GitHub. The development phase involved setting up the frontend with React and Tailwind CSS and the backend with Node.js and MongoDB, creating a scalable and dynamic environment for the application. The core features, such as restaurant listings, attractions, accommodations, and transportation options, were implemented with a focus on user experience and accessibility. \n\n This capstone project followed a structured and Agile development approach. This approach ensured the project is well-organized, user-focused, and continuously improved. \n\n Challenges included ensuring compatibility with React Router v6; managing state and data flow in a complex application; handling real-time updates for weather and safety alerts; optimizing performance for a responsive user interface; and balancing feature implementation on a tight timeline. \n\n Thorough testing and feedback collection ensured the application meets user expectations and functions smoothly across devices. The final phase includes deploying the application on AWS and preparing presentation materials for the project colloquium. This capstone project not only provides a valuable tool for tourists but also demonstrates advanced technical skills in full-stack development, cloud deployment, and user-centered design. "   
-     }
+	}
+    
     ]
 }

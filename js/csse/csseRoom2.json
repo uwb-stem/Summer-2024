@@ -1,111 +1,20 @@
+
+
 {
     "csse": [
       
         {
-           "time": "1:00 PM - 1:15 PM",
-           "projectId": "csse-2-100",
-           "title": "Context-Aware Filtering and Crowd Size Estimation of Wi-Fi Based Flowtrack Data",
-           "studentName": "Emma Pennington",
-           "studentMajor": "CSSE",
-           "projectType": "Faculty research",
-           "facultyAdvisor": "Prof. Brent Lagesse",
-           "posterLink": "./posters/csse/penningtonemma_4026826_122725038_Capstone Poster.png",
-           "abstract": "Cities that have a heavy influx of tourists deal with the issue of overcrowding. This issue must be addressed in order to improve the experiences of travelers and protect the safety and health of citizens and tourists. Wi-Fi sensors are a cost effective and non-invasive tool to implement crowd monitoring.​ However, these sensors produce inaccurate estimates, primarily due to MAC randomization. Because of this, the sensors record more unique MAC addresses than unique devices, leading to inaccurate crowd size estimations using just the raw data.\n\n Techniques already exist to try to filter the data to account for duplicate devices, but these techniques do not consider the context of how the data is collected. Our solution was to implement filtering techniques that take into account the unique context of the sensor’s environment in order to derive more accurate crowd estimates. We defined the context as having three main elements: the location of the sensor, the time the data was collected, and external factors such as weather or planned gatherings in the area. For the scope of the project, we chose to focus on the first two elements, location and time.\n\n We experimented with one sensor location as our primary focus. To account for the location, we considered the surrounding environment. Using this we derived peak and non-peak hours where we applied different filtering methods based on the time of day. We then used the size of the location to determine a threshold for the level of crowdedness and develop a four level scale to categorize the hourly count of unique MAC addresses.\n\n In order to demonstrate how the filtered data could be applied in a practical way, we created an API and web application to display the hourly data for each day of the week for our test location. This way users can reference the data to inform their decisions about how to move throughout the city.\n\n Our next steps are to expand our testing and application to include other sensor locations to further test the validity of our process. We also want to incorporate external data into our filtering methods to account for factors such as weather and public gatherings. In addition, we believe it could be beneficial to utilize machine learning and neural networks to make predictions about future levels of crowdedness."   
+           "time": "",
+           "projectId": "",
+           "title": "test",
+           "studentName": "",
+           "studentMajor": "",
+           "projectType": "",
+           "facultyAdvisor": "",
+           "posterLink": "./posters/placeholder/comingsoon.jpg",
+           "abstract": ""   
 
-	},        {
-        "time": "1:15 PM - 1:30 PM",
-        "projectId": "csse-2-115",
-        "title": "Smart City: Crowd Sensing and Tourist Management Bamberg Buzz: Your Personalized City Guide App",
-        "studentName": "Saman Hourbakht",
-        "studentMajor": "CSSE",
-        "projectType": "Faculty research",
-        "facultyAdvisor": "Prof. Brent Lagesse",
-        "posterLink": "./posters/csse/saman.JPG",
-        "abstract": "Bamberg Buzz, Personalized City Guide App, integrates real-time crowd data into the mobile app to provide users with up-to-date information on crowd levels at locations along pre-determined journeys and enabling users to make informed decisions. The app designs and implements personalized recommendations for users based on their preferences and current crowd levels and implements a crowd prediction model using historical and real-time data to forecast crowd levels for enhanced decision-making.\n\n Bamberg Buzz Uses machine learning models to forecast how busy different locations will be at various times. It suggests points of interest based on user preferences and predicted crowd levels and encourages users to discover less crowded alternatives through gentle cues within the app interface. All the features mentioned above enhance user enjoyment by helping users avoid overcrowded areas and discover hidden gems, leading to a more enjoyable and personalized city experience. Promotes sustainability by encouraging the exploration of less crowded areas, which can help alleviate the negative impacts of overtourism and promote a more sustainable urban environment. It supports local businesses by suggesting alternative locations. Bamberg Buzz can help distribute foot traffic more evenly, potentially benefiting businesses in less-visited areas.\n\n The Bamberg Buzz App Leverages anonymized Wi-Fi sensor data to analyze historical patterns of Wi-Fi device detection to predict future crowd levels. To predict crowd levels, it uses machine learning models to forecast how busy different locations will be at various times. It offers personalized recommendations and suggests points of interest based on user preferences and predicted crowd levels. Provides nudges for smarter exploration and encourages users to discover less crowded alternatives through gentle cues within the app interface. "   
-
-     },
-     {
-        "time": "1:30 PM - 1:45 PM",
-        "projectId": "csse-2-130",
-        "title": "Software Engineer Internship @ CFTC",
-        "studentName": "Ayesha Mahmood ",
-        "studentMajor": "CSSE",
-        "projectType": "Internship or Job opportunity",
-        "facultyAdvisor": "Prof. Brent Lagesse",
-        "posterLink": "./posters/csse/mahmoodayesha_4252209_122733737_final_capstone_poster.png",
-        "abstract": "During my Software Engineering internship at Code for The Community (CFTC), I worked on the Refuge of Mt. Olive (ROMO) mobile application, a project aimed at providing at-risk youth in California with better access to essential resources like housing, food, and healthcare. My primary focus was on developing a responsive Resources Tab with categorized data to improve the process of resource allocation. This involved connecting the app to backend APIs for real-time updates.\n\n In addition to managing the data, I enhanced the user interface with features such as deep linking, favorites, modals, and responsive design. These improvements ensured that the application provided a consistent and user-friendly experience across various devices. One challenge I faced was the data retrieved from these APIs was not structured in the usual way, so I had to map and restructure it to it the app’s architecture. This required me to reconfigure the Resources Tab to accurately reflect the correct data while maintaining a user-friendly interface.\n\n For the mobile application, we used React Native for mobile development and Node.js for backend services, which allowed us to create a robust, cross-platform solution that operates smoothly on both iOS and Android devices. The decision to use React Native was based on its ability to deliver a consistent user experience across different platforms while maintaining high performance.\n\n This internship demonstrated my technical proficiency and highlighted my growth and journey in learning about mobile app development, data management, and user-centered design, resulting in a more efficient and accessible application for at-risk youth in California. The feedback from ROMO has been overwhelmingly positive, emphasizing the app's intuitive design and its potential to significantly improve resource accessibility. This project underscores the importance of user-centered design in creating solutions that address real- world challenges and is set to make a meaningful impact on the lives of at-risk youth."   
-     }
-     ,
-     {
-        "time": "1:45 PM - 2:00 PM",
-        "projectId": "csse-2-145",
-        "title": "Internship @ CTFC",
-        "studentName": "Lyla Shami",
-        "studentMajor": "CSSE",
-        "projectType": "Internship or Job opportunity",
-        "facultyAdvisor": "Prof. Brent Lagesse",
-        "posterLink": "./posters/csse/shamilyla_4326100_122733992_Poster For Capstone.png",
-        "abstract": "During my summer internship with the Code For the Community Team, I contributed to the development of the Refuge of Mt. Olive (ROMO) mobile app. The app aims to provide essential resources for at-risk youth, facilitating access to support guidance through a user-friendly interface.\n\n The project's main goal is to leverage technology to drive community impact by creating an intuitive mobile application. The app provides a centralized platform for at-risk youth to find resources and events to aid their personal development and overall well-being. To achieve this goal, I worked on several key features of the app centered around the map tab. These features were:\n\n 1.Custom Map Markers: I developed custom map markers based on resource and event types, enhancing the user experience by having distinct icons for each resource or event type, for example for housing I would have a house icon on the pin, for food banks, I would have the icon be utensils, and for the event, I would have a calendar icon.\n 2.Map Controller and Loading UI: I worked alongside another software engineering intern to implement the map controller and loading UI to ensure smooth loading and interaction, collaborating with team members to integrate data accurately.\n 3.Markers Implementation: I added functionality for displaying custom markers with accurate location data by converting addresses to latitude and longitude coordinates.\n 4.Navigation Integration and User Permissions: I integrated the navigation feature, allowing users to navigate to their location if they choose to share their location with the app and see nearby resources and events.\n\n The result of these efforts was a robust, user-friendly mobile application that significantly improves the accessibility of the resources for at-risk youth. The significance of this project is because of the potential to make a meaningful impact on the lives of at-risk youth. By providing easy access to essential resources, the ROMO app gives power to the youth to seek out support and opportunities that can help give them positive life choices. Through this internship experience, I was able to gain hands-on experience with React Native Google Maps API while also enhancing my skills in collaborative software development and user experience design."   
-     }
-     ,
-     {
-        "time": "2:00 PM - 2:15 PM",
-        "projectId": "csse-2-200",
-        "title": "Ethical Hacking: Vulnerability Assessment @ Security Innovation",
-        "studentName": "Marko Pejcic Morrison",
-        "studentMajor": "CSSE",
-        "projectType": "Internship or Job opportunity",
-        "facultyAdvisor": "Prof. Brent Lagesse",
-        "posterLink": "./posters/csse/morrisonmarkopejcic_4138784_122746199_MorrisonCapstonePosterUPLOAD.jpg",
-        "abstract": "Penetration testing, or “ethical hacking,” is a field of cybersecurity which focuses on the discovery of vulnerabilities by emulating the practices and procedures of malicious hackers. This field complements the practices of secure software design and defensive techniques associated with security engineering, and together, “defensive” and “offensive” security (also called the “blue” and “red” teams respectively) work in a cycle of implementation and validation to improve the security of a given product or system.\n\n During the twelve-week internship at Security Innovation, I served as a penetration tester, primarily focusing on web applications. I established scoping documents with clients, used hacker techniques in a controlled environment against clients in one to two week intervals, recorded detailed reports of vulnerability findings, researched remediation measures, and presented each culminated finding list as a final report to each client. In the last two weeks of the internship, I also completed a research project categorizing cyber defense measures in order to inform cybersecurity professionals on how to develop tools while eliminating redundant work.\n\n As a result of my penetration testing, clients can use their given reports and recommendations to improve and rework their security measures and software design, preventing cyberattacks and protecting the stakeholders of their organization. Penetration testers enable software engineers to receive an honest appraisal of a malicious hacker’s actions and learn more secure design philosophy for the future."   
-     }
-     ,
-     {
-        "time": "2:15 PM - 2:30 PM",
-        "projectId": "csse-2-215",
-        "title": "Port Security @ VMC",
-        "studentName": "Dylan Tran",
-        "studentMajor": "CSSE",
-        "projectType": "Internship or Job opportunity",
-        "facultyAdvisor": "Prof. Brent Lagesse",
-        "posterLink": "./posters/csse/trandylan_4327355_122723314_Poster.png",
-        "abstract": "Port security is an ongoing project that the networking team is working on. Port security in networking is the practice of securing physical and virtual ports on network devices. These ports can be entry points for legitimate or unauthorized access to a network. Hence, the need for port security.\n\n To accomplish this, we use a tool – CiscoISE. CiscoISE is an identity and policy management system which allows us to profile network devices. Using these profiles, we can apply different types of policies based on the profiles that are assigned on each device. In conjunction to CiscoISE, we use Ordr, which uses AI/ML techniques to identify additional attributes of a device. These additional attributes are not normally found through CiscoISE, which is a challenge as we need certain attributes to help differentiate and identify devices. Ultimately, Ordr helps aid us in the profiling of vague devices, e.g. old devices.\n\n Our projected results are 100% of ports in the hospital are secured. We would also have a secure process of adding new network devices. Lastly, we would have a simpler and more manageable inventory system. The outcomes of this project ensure that any device connected to the network is authorized, resulting in a more secure network infrastructure. "   
-     }
-     ,
-     {
-        "time": "2:30 PM - 2:45 PM",
-        "projectId": "csse-2-230",
-        "title": "Yeast Analysis Tool",
-        "studentName": "Kaleb Vandel",
-        "studentMajor": "CSSE",
-        "projectType": "Faculty Research",
-        "facultyAdvisor": "Prof. Brent Lagesse",
-        "posterLink": "./posters/csse/vandelkaleb.png",
-        "abstract": "During the quarters working on my capstone, I worked to turn an existing native python app into a web-based app utilizing Django’s web framework. I was able to recycle old code from the original application but there was a lot of restructuring required if we wanted to make full use of the tools and efficiency that Django offered.\n\n The purpose of the app itself is to assist researchers at the University of Utah by providing a clean interface that would clearly outline areas of interest in microscope images. The reason that we decided to make this transition was to allow the application to be more easily used and accessed. While the desired functionality hasn’t changed going from native python app to web-based, the web app is much easier to set up and run than the original version was. As the researchers at the university aren’t focused on computer science, we wanted to give a reliable option that didn’t require in-depth knowledge of python and having to run the app from an IDE.\n\n While I wasn’t able to fully replicate the full functionality of the original app, I believe that the new version is set up to be a much more responsive and efficient tool for both the future programmers and the researchers. \n\n By having this version of the app available, we will be increasing the ease of use and accessibility of a valuable quality of life tool for the researchers at the University of Utah and potentially other teams in the future."   
-     }
-     ,
-     {
-        "time": "2:45 PM - 3:00 PM",
-        "projectId": "csse-2-245",
-        "title": "Re-engineering the HDF5 Recorder for Enhanced Data Management in the Graphitti Simulator",
-        "studentName": "Chenghao Hsu ",
-        "studentMajor": "CSSE",
-        "projectType": "Faculty research",
-        "facultyAdvisor": "Prof. Mike Stiber",
-        "posterLink": "./posters/csse/hsuchenghao_4283435_122745208_1723525193395-064d788c-a771-4a3b-a200-fdc34bb40cc9_1.jpg",
-        "abstract": "In my Capstone, I re-engineered the HDF5 Recorder component of the Graphitti simulation framework to reduce code complexity and standardize the data reordering procedure. The primary objective was to handle large datasets more effectively, improving both the speed and scalability of data recording and retrieval processes. \n\n Simulations and scientific research often need to handle extensive datasets, storing this data efficiently is a big problem, so we need an efficient and scalable data recording solutions. As simulations change and create new kinds of data, the old ways of saving that data can become difficult to use and need to be constantly fixed. The old HDF5 Recorder component of the Graphitti simulation framework faced challenges in this regard, struggling with inefficiencies and scalability issues due to its complex data handling procedures and limitations in managing dynamic data updates. To address these limitations, we undertook a re-engineering effort of the HDF5 Recorder, aiming to streamline its functionality and enhance its ability to handle large datasets more effectively. We initialize dynamic variables as Datasets with unlimited dimensions, employing a chunking strategy for efficient storage and access, and extend the Datasets incrementally as new data is generated. So, the re-engineered HDF5 Recorder utilizes the HDF5 formats to allow for dynamic growth and direct data appending during simulation. This approach eliminates the need to store large volumes of data in memory, thereby improving both speed and scalability.\n\n The redesigned HDF5 recorder can write data directly to files during simulation, an approach that eliminates the need to store large amounts of data in memory, making it more efficient for processing large datasets. This not only reduces code complexity, but also provides a significant performance improvement over the previous implementation. The new HDF5 recorder can now support larger datasets more efficiently, solving the scalability issues that plagued its predecessor. This advancement highlights the importance of choosing the right data handling mechanism and proves the effectiveness of the HDF5 format in managing dynamic and wide-ranging data types.\n\n Overall, the re-engineered HDF5 Recorder substantially enhances the Graphitti simulation framework's capability to handle diverse and voluminous data, meeting the project's goals of improving data recording and retrieval processes while minimizing development overhead."   
-     }
-     ,
-     {
-        "time": "3:00 PM - 3:15 PM",
-        "projectId": "csse-2-300",
-        "title": "Firmware Internship at HP Inc.",
-        "studentName": "Thomas Nguyen",
-        "studentMajor": "CSSE",
-        "projectType": "Internship or Job opportunity",
-        "facultyAdvisor": "Prof. Munehiro Fukuda",
-        "posterLink": "./posters/csse/nguyenthomas_4284204_122737954_Screenshot 2024-08-12 152030.png",
-        "abstract": "As part of my internship at HP as a Firmware Intern, I focused on resolving testing defects within the firmware HP printers, contributing to the overall stability and performance of the products. My primary responsibility was to analyze, identify, and correct issues within the monolithic codebase, which serves as the foundation for future HP printers. Over the course of the project, I successfully resolved eight defects, each requiring a deep understanding of the existing code and the ability to implement precise fixes without introducing new issues. This process involved collaborating with the team to ensure that the solutions were thoroughly tested and validated before integration into the main codebase. The defect resolution work not only improved the functionality of the printers but also provided valuable insights into effective debugging and problem-solving strategies in a large-scale software environment.\n\n In addition to defect resolution, I worked on enhancing the user interface of a budget printer series by implementing button combination functionality. This project addressed the challenge of enabling mode switching and operational control using physical buttons, as the printer lacked a touchscreen interface. Using C++, I developed a robust solution that ensured clear and manageable code structure, facilitating future maintenance and upgrades. Extensive testing and verification confirmed the reliability of the button combinations, allowing for necessary mode switching and operational control, which were crucial for production, customer support, and fixes. This achievement demonstrated the feasibility of using physical buttons to perform complex functions in budget-friendly devices.\n\n Overall, these projects significantly contributed to my development as a future firmware and software engineer. I gained hands-on experience with advanced coding practices, particularly in C++ and object-oriented programming, and honed my problem-solving and analytical skills through navigating and comprehending a large, complex codebase. Additionally, the necessity to communicate effectively across international teams provided valuable lessons in corporate communication. These experiences have equipped me with a solid foundation in firmware development and the collaborative processes essential in a large-scale company, preparing me for future challenges in the tech industry."   
-     }
+	}
+    
     ]
 }

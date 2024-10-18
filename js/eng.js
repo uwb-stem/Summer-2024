@@ -1,31 +1,37 @@
 import { createPresentationBox, readTextFile } from './structure.js'
 
 
-const NUM_ROOMS = 1;
 
 
-const getJsonData = async function (path) {
+function loadPresentations(json_data) {
 
-    for (let i = 1; i <= NUM_ROOMS; ++i) {
+    const content_block = document.getElementsByClassName("section");
+    const panel_sections = new Map();
+    let idx = 0
+    let presentations = json_data["presentations"];
+    console.log(presentations)
 
-        let room_str = "room-" + i + "-presentations";
-        let file_str = path + "engRoom" + i + ".json";
-        let json_data = await readTextFile(file_str);
-        loadENGPresentations(room_str, json_data);
-
-    }
-}
-
-function loadENGPresentations(room, json_data) {
-
-    let container = document.getElementById(room);
-    
-    let presentations = JSON.parse(json_data)["eng"];
     for (let i = 0; i < presentations.length; i++) {
 
-        createPresentationBox(presentations[i], container, false);
+        if (!panel_sections.has(presentations[i].roomId)) {
+            panel_sections.set(presentations[i].roomId, idx)
+            idx++
+        }
+        let room_num = presentations[i].roomId;
+
+        let container_idx = panel_sections.get(room_num);
+        let container = content_block[container_idx]
+        createPresentationBox(presentations[i], container, true);
     }
 }
 
 
-getJsonData("./js/eng/");
+let url = 'http://127.0.0.1:8080/api/division/eng';
+
+const response = await fetch(url);
+
+const json = await response.json();
+loadPresentations(json);
+
+
+//getJsonData(json);
