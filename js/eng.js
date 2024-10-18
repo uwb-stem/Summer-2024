@@ -3,34 +3,29 @@ import { createPresentationBox, readTextFile } from './structure.js'
 
 const NUM_ROOMS = 1;
 
-async function loadPresentations() {
 
-    let roomid = 1
+const getJsonData = async function (path) {
 
+    for (let i = 1; i <= NUM_ROOMS; ++i) {
+
+        let room_str = "room-" + i + "-presentations";
+        let file_str = path + "engRoom" + i + ".json";
+        let json_data = await readTextFile(file_str);
+        loadENGPresentations(room_str, json_data);
+
+    }
+}
+
+function loadENGPresentations(room, json_data) {
+
+    let container = document.getElementById(room);
     
-    let presentations_fetch = await getPresentations()
-    let presentations = presentations_fetch['presentations']
-  
+    let presentations = JSON.parse(json_data)["eng"];
     for (let i = 0; i < presentations.length; i++) {
-        let container = document.getElementById("room-"+roomid+"-presentations");
-        createPresentationBox(presentations[i], container, true);
+
+        createPresentationBox(presentations[i], container, false);
     }
 }
 
 
-
-async function getPresentations() {
-    try {
-        let response = await fetch('http://localhost:8080/api/division/eng');
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        let data = await response.json(); 
-        return data; 
-    } catch (error) {
-        console.error("Error fetching presentations:", error);
-        return { presentations: [] }; 
-    }
-}
-
-  loadPresentations();
+getJsonData("./js/eng/");

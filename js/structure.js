@@ -233,34 +233,48 @@ export function createSimpleInfoBox(container, text, time) {
  * 
  */
 export function createPresentationBox(presentationInfo, container, addAbstractButton) {
-    let presentation = document.createElement("section");
-    presentation.classList.add("presentation");
-    presentation.setAttribute("id", presentationInfo.projectId);
 
-    let contentUl = document.createElement("ul");
-    let textLi = document.createElement("li");
 
-    // Add time if available
-    if (presentationInfo.time !== undefined) {
-        let time = document.createElement("p");
-        time.classList.add("present-time");
-        time.appendChild(document.createTextNode(presentationInfo.time));
-        textLi.appendChild(time);
+    if (container === "") {
+        container = document.getElementById("presentation");
+        // presentationInfo = JSON.parse(presentationInfo);
     }
 
-    // Add project title
+    let presentation = document.createElement("section");
+    presentation.classList.add("presentation");
+
+    // add projectId so that when user click on the project on side nav,
+    // it goes to the correct presentation box
+    presentation.setAttribute("id", presentationInfo.projectId);
+
+
+    let contentUl = document.createElement("ul");
+    // contentUl.classList.add("projectUl");
+    let textLi = document.createElement("li");
+
+    // time
+    if(presentationInfo.time !== undefined){
+    let time = document.createElement("p");
+    time.classList.add("present-time");
+    time.appendChild(document.createTextNode(presentationInfo.time));
+    textLi.appendChild(time);
+    }
+    // short black line
+  
+
+    // project title
     let title = document.createElement("h3");
     title.appendChild(document.createTextNode(presentationInfo.title));
     textLi.appendChild(title);
 
     addStudents(presentationInfo, textLi);
 
-    // Add faculty advisor
+    // faculty advisor
     let advisor = document.createElement("p");
     advisor.appendChild(document.createTextNode("Faculty advisor: " + presentationInfo.facultyAdvisor));
     textLi.appendChild(advisor);
 
-    // Add abstract button if needed
+    // button to abstract page
     if (addAbstractButton) {
         let space = document.createElement("div");
         space.classList.add("small-space");
@@ -274,28 +288,20 @@ export function createPresentationBox(presentationInfo, container, addAbstractBu
         textLi.appendChild(abstractPageBtn);
     }
 
-    let splitPosters = [];
-    if (presentationInfo.posterlink !== undefined) {
-        splitPosters = presentationInfo.posterlink.split("\n\n");
-    }
+
+    let splitPosters = presentationInfo.posterLink.split("\n\n");
     let posterLi = document.createElement("li");
-    if (presentationInfo.posterlink !== "<<NOPOSTER>>") {
-        loadPosters(splitPosters, document, posterLi);
-    }
+    if (presentationInfo.posterLink != "<<NOPOSTER>>") loadPosters(splitPosters, document, posterLi);
 
     contentUl.appendChild(textLi);
     contentUl.appendChild(posterLi);
     presentation.appendChild(contentUl);
 
-    // Check if container is defined and not null
-    if (container && container !== null) {
-        container.appendChild(presentation);
-    } else {
-        console.error("Container element not found in the DOM.");
-    }
-
+    container.appendChild(presentation);
     return presentation;
 }
+
+
 
 /**
  * 
